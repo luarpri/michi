@@ -5,9 +5,9 @@
   "lists": {},
   "broadcasts": {},
   "blocks": {
-    "a+": {
+    "a.": {
       "opcode": "event_whenflagclicked",
-      "next": "K",
+      "next": "L",
       "parent": null,
       "inputs": {},
       "fields": {},
@@ -16,56 +16,12 @@
       "x": 1056,
       "y": 64
     },
-    "K": {
-      "opcode": "cst1229zip_closeAll",
-      "next": "L",
-      "parent": "a+",
-      "inputs": {},
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "L": {
-      "opcode": "data_setvariableto",
-      "next": "M",
-      "parent": "K",
-      "inputs": {
-        "VALUE": [
-          1,
-          [
-            10,
-            "0"
-          ]
-        ]
-      },
-      "fields": {
-        "VARIABLE": [
-          "counter",
-          "E;|*0_d2h@Qy.4f.H3`o"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
     "M": {
-      "opcode": "data_setvariableto",
+      "opcode": "cst1229zip_closeAll",
       "next": "N",
       "parent": "L",
-      "inputs": {
-        "VALUE": [
-          1,
-          [
-            10,
-            "-1"
-          ]
-        ]
-      },
-      "fields": {
-        "VARIABLE": [
-          "costumeindex",
-          "UVMWrzVf::yEHjqC6=UV"
-        ]
-      },
+      "inputs": {},
+      "fields": {},
       "shadow": false,
       "topLevel": false
     },
@@ -84,8 +40,8 @@
       },
       "fields": {
         "VARIABLE": [
-          "md5counter",
-          "Qk^.r?[^p_#,#OWbOUYr"
+          "counter",
+          "E;|*0_d2h@Qy.4f.H3`o"
         ]
       },
       "shadow": false,
@@ -106,8 +62,8 @@
       },
       "fields": {
         "VARIABLE": [
-          "objectindex",
-          "StS+@^]rUG?wnd,^q=IZ"
+          "costumeindex",
+          "UVMWrzVf::yEHjqC6=UV"
         ]
       },
       "shadow": false,
@@ -128,8 +84,8 @@
       },
       "fields": {
         "VARIABLE": [
-          "soundindex",
-          "vtR6y}v_bCCYx~fuASM:"
+          "md5counter",
+          "Qk^.r?[^p_#,#OWbOUYr"
         ]
       },
       "shadow": false,
@@ -139,6 +95,50 @@
       "opcode": "data_setvariableto",
       "next": "R",
       "parent": "P",
+      "inputs": {
+        "VALUE": [
+          1,
+          [
+            10,
+            "-1"
+          ]
+        ]
+      },
+      "fields": {
+        "VARIABLE": [
+          "objectindex",
+          "StS+@^]rUG?wnd,^q=IZ"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "R": {
+      "opcode": "data_setvariableto",
+      "next": "S",
+      "parent": "Q",
+      "inputs": {
+        "VALUE": [
+          1,
+          [
+            10,
+            "0"
+          ]
+        ]
+      },
+      "fields": {
+        "VARIABLE": [
+          "soundindex",
+          "vtR6y}v_bCCYx~fuASM:"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "S": {
+      "opcode": "data_setvariableto",
+      "next": "T",
+      "parent": "R",
       "inputs": {
         "VALUE": [
           1,
@@ -157,10 +157,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "S": {
+    "T": {
       "opcode": "data_setvariableto",
-      "next": "T",
-      "parent": "R",
+      "next": "U",
+      "parent": "S",
       "inputs": {
         "VALUE": [
           1,
@@ -172,8 +172,8 @@
       },
       "fields": {
         "VARIABLE": [
-          "url",
-          "0C|qs$z@yJT|?{5HF-6="
+          "token",
+          "9Ah^I1K8EAi[~H4AFBG="
         ]
       },
       "shadow": false,
@@ -194,8 +194,8 @@
       },
       "fields": {
         "VARIABLE": [
-          "api_response",
-          "EYH5tt0%*rS8Ow`~?nKs"
+          "url",
+          "0C|qs$z@yJT|?{5HF-6="
         ]
       },
       "shadow": false,
@@ -216,8 +216,8 @@
       },
       "fields": {
         "VARIABLE": [
-          "id",
-          ".l}zLsQXX~N}*fMBzuD!"
+          "md5ext",
+          "|CnJbf!Vt*m5o?;Xk2z/"
         ]
       },
       "shadow": false,
@@ -238,8 +238,8 @@
       },
       "fields": {
         "VARIABLE": [
-          "title",
-          "7iX#;/DOld25!e)=|m`^"
+          "api_response",
+          "EYH5tt0%*rS8Ow`~?nKs"
         ]
       },
       "shadow": false,
@@ -260,8 +260,8 @@
       },
       "fields": {
         "VARIABLE": [
-          "author",
-          "@N!T0=ow|k:wA8`Y$}4l"
+          "id",
+          ".l}zLsQXX~N}*fMBzuD!"
         ]
       },
       "shadow": false,
@@ -282,8 +282,8 @@
       },
       "fields": {
         "VARIABLE": [
-          "visible",
-          "@i6p8b+]dNC!!2V^G-6d"
+          "title",
+          "7iX#;/DOld25!e)=|m`^"
         ]
       },
       "shadow": false,
@@ -304,8 +304,8 @@
       },
       "fields": {
         "VARIABLE": [
-          "instructions",
-          "d,@G-EF2@z3k*-+_%*.q"
+          "author",
+          "@N!T0=ow|k:wA8`Y$}4l"
         ]
       },
       "shadow": false,
@@ -326,6 +326,50 @@
       },
       "fields": {
         "VARIABLE": [
+          "visible",
+          "@i6p8b+]dNC!!2V^G-6d"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "#": {
+      "opcode": "data_setvariableto",
+      "next": "%",
+      "parent": "!",
+      "inputs": {
+        "VALUE": [
+          1,
+          [
+            10,
+            ""
+          ]
+        ]
+      },
+      "fields": {
+        "VARIABLE": [
+          "instructions",
+          "d,@G-EF2@z3k*-+_%*.q"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "%": {
+      "opcode": "data_setvariableto",
+      "next": "(",
+      "parent": "#",
+      "inputs": {
+        "VALUE": [
+          1,
+          [
+            10,
+            ""
+          ]
+        ]
+      },
+      "fields": {
+        "VARIABLE": [
           "descriptions",
           "=l00rRgoE/78ca3+_P.4"
         ]
@@ -333,10 +377,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "#": {
+    "(": {
       "opcode": "sensing_askandwait",
       "next": "c",
-      "parent": "!",
+      "parent": "%",
       "inputs": {
         "QUESTION": [
           1,
@@ -353,11 +397,11 @@
     "c": {
       "opcode": "control_if_else",
       "next": null,
-      "parent": "#",
+      "parent": "(",
       "inputs": {
         "CONDITION": [
           2,
-          "%"
+          ")"
         ],
         "SUBSTACK": [
           2,
@@ -365,14 +409,14 @@
         ],
         "SUBSTACK2": [
           2,
-          "a,"
+          "a/"
         ]
       },
       "fields": {},
       "shadow": false,
       "topLevel": false
     },
-    "%": {
+    ")": {
       "opcode": "operator_contains",
       "next": null,
       "parent": "c",
@@ -386,7 +430,7 @@
         ],
         "STRING1": [
           3,
-          "a-",
+          "a:",
           [
             10,
             ""
@@ -397,10 +441,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "a-": {
+    "a:": {
       "opcode": "sensing_answer",
       "next": null,
-      "parent": "%",
+      "parent": ")",
       "inputs": {},
       "fields": {},
       "shadow": false,
@@ -413,7 +457,7 @@
       "inputs": {
         "VALUE": [
           3,
-          "(",
+          "*",
           [
             10,
             "0"
@@ -429,7 +473,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "(": {
+    "*": {
       "opcode": "strings_replace",
       "next": null,
       "parent": "k",
@@ -443,7 +487,7 @@
         ],
         "STRING": [
           3,
-          "a.",
+          "a;",
           [
             10,
             "Hello world!"
@@ -461,10 +505,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "a.": {
+    "a;": {
       "opcode": "sensing_answer",
       "next": null,
-      "parent": "(",
+      "parent": "*",
       "inputs": {},
       "fields": {},
       "shadow": false,
@@ -472,12 +516,12 @@
     },
     "l": {
       "opcode": "data_setvariableto",
-      "next": "a/",
+      "next": "a=",
       "parent": "k",
       "inputs": {
         "VALUE": [
           3,
-          "a:",
+          "a?",
           [
             10,
             "0"
@@ -493,7 +537,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "a:": {
+    "a?": {
       "opcode": "fetch_get",
       "next": null,
       "parent": "l",
@@ -515,7 +559,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "a/": {
+    "a=": {
       "opcode": "event_broadcast",
       "next": null,
       "parent": "l",
@@ -533,7 +577,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "a,": {
+    "a/": {
       "opcode": "looks_sayforsecs",
       "next": null,
       "parent": "c",
@@ -557,7 +601,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "a;": {
+    "a@": {
       "opcode": "event_whenbroadcastreceived",
       "next": "m",
       "parent": null,
@@ -576,11 +620,11 @@
     "m": {
       "opcode": "data_setvariableto",
       "next": "n",
-      "parent": "a;",
+      "parent": "a@",
       "inputs": {
         "VALUE": [
           3,
-          "a=",
+          "a[",
           [
             10,
             "0"
@@ -596,7 +640,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "a=": {
+    "a[": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
       "parent": "m",
@@ -632,7 +676,7 @@
       "inputs": {
         "VALUE": [
           3,
-          "a?",
+          "a]",
           [
             10,
             "0"
@@ -648,7 +692,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "a?": {
+    "a]": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
       "parent": "n",
@@ -684,7 +728,7 @@
       "inputs": {
         "VALUE": [
           3,
-          ")",
+          "+",
           [
             10,
             "0"
@@ -700,7 +744,7 @@
       "shadow": false,
       "topLevel": false
     },
-    ")": {
+    "+": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
       "parent": "o",
@@ -714,7 +758,7 @@
         ],
         "json": [
           3,
-          "a@",
+          "a^",
           [
             10,
             "{\"key\":\"value\"}"
@@ -725,10 +769,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "a@": {
+    "a^": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
-      "parent": ")",
+      "parent": "+",
       "inputs": {
         "item": [
           1,
@@ -761,7 +805,7 @@
       "inputs": {
         "VALUE": [
           3,
-          "a[",
+          "a_",
           [
             10,
             "0"
@@ -777,7 +821,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "a[": {
+    "a_": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
       "parent": "p",
@@ -813,7 +857,7 @@
       "inputs": {
         "VALUE": [
           3,
-          "a]",
+          "a`",
           [
             10,
             "0"
@@ -829,7 +873,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "a]": {
+    "a`": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
       "parent": "q",
@@ -865,7 +909,7 @@
       "inputs": {
         "VALUE": [
           3,
-          "a^",
+          "a{",
           [
             10,
             "0"
@@ -881,7 +925,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "a^": {
+    "a{": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
       "parent": "r",
@@ -917,7 +961,7 @@
       "inputs": {
         "VALUE": [
           3,
-          "a_",
+          "a|",
           [
             10,
             "0"
@@ -933,7 +977,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "a_": {
+    "a|": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
       "parent": "s",
@@ -964,12 +1008,12 @@
     },
     "t": {
       "opcode": "lmsSkins_registerURLSkin",
-      "next": "*",
+      "next": ",",
       "parent": "s",
       "inputs": {
         "URL": [
           3,
-          "+",
+          "-",
           [
             10,
             "https://extensions.turbowarp.org/dango.png"
@@ -987,7 +1031,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "+": {
+    "-": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
       "parent": "t",
@@ -1001,7 +1045,7 @@
         ],
         "json": [
           3,
-          "a`",
+          "a}",
           [
             10,
             "{\"key\":\"value\"}"
@@ -1012,10 +1056,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "a`": {
+    "a}": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
-      "parent": "+",
+      "parent": "-",
       "inputs": {
         "item": [
           1,
@@ -1041,7 +1085,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "*": {
+    ",": {
       "opcode": "looks_setsizeto",
       "next": "u",
       "parent": "t",
@@ -1060,12 +1104,12 @@
     },
     "u": {
       "opcode": "lmsSkins_setSkin",
-      "next": "a{",
-      "parent": "*",
+      "next": "a~",
+      "parent": ",",
       "inputs": {
         "TARGET": [
           1,
-          "a|"
+          "ba"
         ],
         "NAME": [
           1,
@@ -1079,7 +1123,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "a|": {
+    "ba": {
       "opcode": "lmsSkins_menu_targetMenu",
       "next": null,
       "parent": "u",
@@ -1093,7 +1137,7 @@
       "shadow": true,
       "topLevel": false
     },
-    "a{": {
+    "a~": {
       "opcode": "event_broadcast",
       "next": null,
       "parent": "u",
@@ -1111,9 +1155,9 @@
       "shadow": false,
       "topLevel": false
     },
-    "a}": {
+    "bb": {
       "opcode": "event_whenkeypressed",
-      "next": ",",
+      "next": ".",
       "parent": null,
       "inputs": {},
       "fields": {
@@ -1125,12 +1169,12 @@
       "shadow": false,
       "topLevel": true,
       "x": 1104,
-      "y": 1312
+      "y": 1360
     },
-    ",": {
+    ".": {
       "opcode": "data_showvariable",
-      "next": "a~",
-      "parent": "a}",
+      "next": "bc",
+      "parent": "bb",
       "inputs": {},
       "fields": {
         "VARIABLE": [
@@ -1141,10 +1185,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "a~": {
+    "bc": {
       "opcode": "data_showvariable",
       "next": null,
-      "parent": ",",
+      "parent": ".",
       "inputs": {},
       "fields": {
         "VARIABLE": [
@@ -1155,9 +1199,9 @@
       "shadow": false,
       "topLevel": false
     },
-    "ba": {
+    "bd": {
       "opcode": "event_whenkeypressed",
-      "next": "-",
+      "next": "/",
       "parent": null,
       "inputs": {},
       "fields": {
@@ -1171,10 +1215,10 @@
       "x": 664,
       "y": 64
     },
-    "-": {
+    "/": {
       "opcode": "data_hidevariable",
-      "next": "bb",
-      "parent": "ba",
+      "next": "be",
+      "parent": "bd",
       "inputs": {},
       "fields": {
         "VARIABLE": [
@@ -1185,10 +1229,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "bb": {
+    "be": {
       "opcode": "data_hidevariable",
       "next": null,
-      "parent": "-",
+      "parent": "/",
       "inputs": {},
       "fields": {
         "VARIABLE": [
@@ -1199,9 +1243,9 @@
       "shadow": false,
       "topLevel": false
     },
-    "bc": {
+    "bf": {
       "opcode": "event_whenbroadcastreceived",
-      "next": ".",
+      "next": ":",
       "parent": null,
       "inputs": {},
       "fields": {
@@ -1215,10 +1259,10 @@
       "x": 1056,
       "y": 1752
     },
-    ".": {
+    ":": {
       "opcode": "data_setvariableto",
-      "next": "/",
-      "parent": "bc",
+      "next": ";",
+      "parent": "bf",
       "inputs": {
         "VALUE": [
           1,
@@ -1237,10 +1281,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "/": {
+    ";": {
       "opcode": "data_setvariableto",
-      "next": ":",
-      "parent": ".",
+      "next": "=",
+      "parent": ":",
       "inputs": {
         "VALUE": [
           1,
@@ -1259,10 +1303,54 @@
       "shadow": false,
       "topLevel": false
     },
-    ";": {
+    "=": {
+      "opcode": "data_setvariableto",
+      "next": "?",
+      "parent": ";",
+      "inputs": {
+        "VALUE": [
+          1,
+          [
+            10,
+            "1"
+          ]
+        ]
+      },
+      "fields": {
+        "VARIABLE": [
+          "object_sound_index",
+          "|~$nr~*4wrjJ]0;1h(|J"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "?": {
+      "opcode": "data_setvariableto",
+      "next": "@",
+      "parent": "=",
+      "inputs": {
+        "VALUE": [
+          1,
+          [
+            10,
+            "1"
+          ]
+        ]
+      },
+      "fields": {
+        "VARIABLE": [
+          "costumeindex",
+          "UVMWrzVf::yEHjqC6=UV"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "@": {
       "opcode": "cst1229zip_createEmptyAs",
       "next": "d",
-      "parent": "=",
+      "parent": "?",
       "inputs": {
         "NAME": [
           3,
@@ -1284,7 +1372,7 @@
     "d": {
       "opcode": "cst1229zip_writeFile",
       "next": "a",
-      "parent": ";",
+      "parent": "@",
       "inputs": {
         "FILE": [
           1,
@@ -1295,7 +1383,7 @@
         ],
         "CONTENT": [
           3,
-          "?",
+          "[",
           [
             10,
             "Hello, world?"
@@ -1303,14 +1391,14 @@
         ],
         "TYPE": [
           1,
-          "bd"
+          "bg"
         ]
       },
       "fields": {},
       "shadow": false,
       "topLevel": false
     },
-    "?": {
+    "[": {
       "opcode": "operator_join",
       "next": null,
       "parent": "d",
@@ -1324,7 +1412,7 @@
         ],
         "STRING2": [
           3,
-          "@",
+          "]",
           [
             10,
             "pl\u00e1tano"
@@ -1335,10 +1423,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "@": {
+    "]": {
       "opcode": "operator_join",
       "next": null,
-      "parent": "?",
+      "parent": "[",
       "inputs": {
         "STRING1": [
           3,
@@ -1354,7 +1442,7 @@
         ],
         "STRING2": [
           3,
-          "be",
+          "bh",
           [
             10,
             "pl\u00e1tano"
@@ -1365,10 +1453,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "be": {
+    "bh": {
       "opcode": "operator_join",
       "next": null,
-      "parent": "@",
+      "parent": "]",
       "inputs": {
         "STRING1": [
           1,
@@ -1394,7 +1482,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "bd": {
+    "bg": {
       "opcode": "cst1229zip_menu_writeFileType",
       "next": null,
       "parent": "d",
@@ -1408,174 +1496,68 @@
       "shadow": true,
       "topLevel": false
     },
-    "[": {
-      "opcode": "cst1229zip_getZip",
+    "a": {
+      "opcode": "control_if_else",
       "next": null,
-      "parent": null,
+      "parent": "d",
       "inputs": {
-        "TYPE": [
-          1,
-          "bf"
+        "CONDITION": [
+          2,
+          "^"
         ],
-        "COMPRESSION": [
-          1,
-          "bg"
+        "SUBSTACK": [
+          2,
+          "v"
+        ],
+        "SUBSTACK2": [
+          2,
+          "e"
         ]
       },
       "fields": {},
       "shadow": false,
-      "topLevel": true,
-      "x": 48,
-      "y": 64
-    },
-    "bf": {
-      "opcode": "cst1229zip_menu_zipFileType",
-      "next": null,
-      "parent": "[",
-      "inputs": {},
-      "fields": {
-        "zipFileType": [
-          "data: URL",
-          null
-        ]
-      },
-      "shadow": true,
-      "topLevel": false
-    },
-    "bg": {
-      "opcode": "cst1229zip_menu_compressionLevel",
-      "next": null,
-      "parent": "[",
-      "inputs": {},
-      "fields": {
-        "compressionLevel": [
-          "6",
-          null
-        ]
-      },
-      "shadow": true,
-      "topLevel": false
-    },
-    "b(": {
-      "opcode": "skyhigh173JSON_json_jlength",
-      "next": null,
-      "parent": null,
-      "inputs": {
-        "json": [
-          1,
-          [
-            10,
-            "{\"key\":\"value\",\"key2\":\"value2\"}"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": true,
-      "x": 48,
-      "y": 184
-    },
-    "b)": {
-      "opcode": "skyhigh173JSON_json_length",
-      "next": null,
-      "parent": null,
-      "inputs": {
-        "json": [
-          1,
-          [
-            10,
-            "[1,2,3]"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": true,
-      "x": 48,
-      "y": 296
-    },
-    "bh": {
-      "opcode": "event_whenflagclicked",
-      "next": "]",
-      "parent": null,
-      "inputs": {},
-      "fields": {},
-      "shadow": false,
-      "topLevel": true,
-      "x": 4467,
-      "y": 288
-    },
-    "]": {
-      "opcode": "data_deletealloflist",
-      "next": "^",
-      "parent": "bh",
-      "inputs": {},
-      "fields": {
-        "LIST": [
-          "costumes",
-          "KiOucij*)MFDW[%baG8h"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
+      "topLevel": false,
+      "comment": "bi"
     },
     "^": {
-      "opcode": "data_deletealloflist",
-      "next": "_",
-      "parent": "]",
-      "inputs": {},
-      "fields": {
-        "LIST": [
-          "sounds",
-          "--mE/dy,t58LTqWN:lHD"
+      "opcode": "operator_contains",
+      "next": null,
+      "parent": "a",
+      "inputs": {
+        "STRING2": [
+          1,
+          [
+            10,
+            "ScratchV01"
+          ]
+        ],
+        "STRING1": [
+          3,
+          "_",
+          [
+            10,
+            ""
+          ]
         ]
       },
+      "fields": {},
       "shadow": false,
       "topLevel": false
     },
     "_": {
-      "opcode": "control_forever",
+      "opcode": "cst1229zip_getFile",
       "next": null,
       "parent": "^",
       "inputs": {
-        "SUBSTACK": [
-          2,
-          "v"
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "v": {
-      "opcode": "control_if",
-      "next": null,
-      "parent": "_",
-      "inputs": {
-        "CONDITION": [
-          2,
-          "w"
+        "FILE": [
+          1,
+          [
+            10,
+            "project.json"
+          ]
         ],
-        "SUBSTACK": [
-          2,
-          "x"
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "w": {
-      "opcode": "operator_or",
-      "next": null,
-      "parent": "v",
-      "inputs": {
-        "OPERAND1": [
-          2,
-          "bi"
-        ],
-        "OPERAND2": [
-          2,
+        "TYPE": [
+          1,
           "bj"
         ]
       },
@@ -1583,168 +1565,206 @@
       "shadow": false,
       "topLevel": false
     },
-    "bi": {
-      "opcode": "data_listcontainsitem",
-      "next": null,
-      "parent": "w",
-      "inputs": {
-        "ITEM": [
-          1,
-          [
-            10,
-            ""
-          ]
-        ]
-      },
-      "fields": {
-        "LIST": [
-          "costumes",
-          "KiOucij*)MFDW[%baG8h"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
     "bj": {
-      "opcode": "data_listcontainsitem",
+      "opcode": "cst1229zip_menu_getFileType",
       "next": null,
-      "parent": "w",
+      "parent": "_",
+      "inputs": {},
+      "fields": {
+        "getFileType": [
+          "text",
+          null
+        ]
+      },
+      "shadow": true,
+      "topLevel": false
+    },
+    "v": {
+      "opcode": "cst1229zip_renameFile",
+      "next": "w",
+      "parent": "a",
       "inputs": {
-        "ITEM": [
+        "FROM": [
           1,
           [
             10,
-            ""
+            "project.json"
           ]
-        ]
-      },
-      "fields": {
-        "LIST": [
-          "sounds",
-          "--mE/dy,t58LTqWN:lHD"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
-    "x": {
-      "opcode": "data_deleteoflist",
-      "next": "`",
-      "parent": "v",
-      "inputs": {
-        "INDEX": [
+        ],
+        "TO": [
           3,
           "bk",
           [
-            7,
-            "1"
-          ]
-        ]
-      },
-      "fields": {
-        "LIST": [
-          "costumes",
-          "KiOucij*)MFDW[%baG8h"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
-    "bk": {
-      "opcode": "data_itemnumoflist",
-      "next": null,
-      "parent": "x",
-      "inputs": {
-        "ITEM": [
-          1,
-          [
             10,
-            ""
+            "hello renamed.txt"
           ]
-        ]
-      },
-      "fields": {
-        "LIST": [
-          "costumes",
-          "KiOucij*)MFDW[%baG8h"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
-    "`": {
-      "opcode": "data_deleteoflist",
-      "next": null,
-      "parent": "x",
-      "inputs": {
-        "INDEX": [
-          3,
-          "bl",
-          [
-            7,
-            "1"
-          ]
-        ]
-      },
-      "fields": {
-        "LIST": [
-          "sounds",
-          "--mE/dy,t58LTqWN:lHD"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
-    "bl": {
-      "opcode": "data_itemnumoflist",
-      "next": null,
-      "parent": "`",
-      "inputs": {
-        "ITEM": [
-          1,
-          [
-            10,
-            ""
-          ]
-        ]
-      },
-      "fields": {
-        "LIST": [
-          "sounds",
-          "--mE/dy,t58LTqWN:lHD"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
-    "bm": {
-      "opcode": "control_repeat_until",
-      "next": null,
-      "parent": null,
-      "inputs": {
-        "CONDITION": [
-          2,
-          "y"
         ]
       },
       "fields": {},
       "shadow": false,
-      "topLevel": true,
-      "x": 1056,
-      "y": 1520
+      "topLevel": false
     },
-    "y": {
-      "opcode": "operator_and",
+    "bk": {
+      "opcode": "operator_join",
       "next": null,
-      "parent": "bm",
+      "parent": "v",
       "inputs": {
-        "OPERAND1": [
+        "STRING1": [
+          3,
+          [
+            12,
+            "title",
+            "7iX#;/DOld25!e)=|m`^"
+          ],
+          [
+            10,
+            "manzana "
+          ]
+        ],
+        "STRING2": [
+          1,
+          [
+            10,
+            ".sb"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "w": {
+      "opcode": "files_downloadURL",
+      "next": null,
+      "parent": "v",
+      "inputs": {
+        "url": [
+          3,
+          "x",
+          [
+            10,
+            "data:text/plain;base64,SGVsbG8sIHdvcmxkIQ=="
+          ]
+        ],
+        "file": [
+          3,
+          "bl",
+          [
+            10,
+            "save.txt"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "x": {
+      "opcode": "cst1229zip_getFile",
+      "next": null,
+      "parent": "w",
+      "inputs": {
+        "FILE": [
+          3,
+          "bm",
+          [
+            10,
+            "project.json"
+          ]
+        ],
+        "TYPE": [
+          1,
+          "bn"
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "bm": {
+      "opcode": "operator_join",
+      "next": null,
+      "parent": "x",
+      "inputs": {
+        "STRING1": [
+          3,
+          [
+            12,
+            "title",
+            "7iX#;/DOld25!e)=|m`^"
+          ],
+          [
+            10,
+            "manzana "
+          ]
+        ],
+        "STRING2": [
+          1,
+          [
+            10,
+            ".sb"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "bn": {
+      "opcode": "cst1229zip_menu_getFileType",
+      "next": null,
+      "parent": "x",
+      "inputs": {},
+      "fields": {
+        "getFileType": [
+          "data: URL",
+          null
+        ]
+      },
+      "shadow": true,
+      "topLevel": false
+    },
+    "bl": {
+      "opcode": "operator_join",
+      "next": null,
+      "parent": "w",
+      "inputs": {
+        "STRING1": [
+          3,
+          [
+            12,
+            "title",
+            "7iX#;/DOld25!e)=|m`^"
+          ],
+          [
+            10,
+            "manzana "
+          ]
+        ],
+        "STRING2": [
+          1,
+          [
+            10,
+            ".sb"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "e": {
+      "opcode": "control_repeat_until",
+      "next": "`",
+      "parent": "a",
+      "inputs": {
+        "CONDITION": [
           2,
           "{"
         ],
-        "OPERAND2": [
+        "SUBSTACK": [
           2,
-          "|"
+          "y"
         ]
       },
       "fields": {},
@@ -1752,23 +1772,46 @@
       "topLevel": false
     },
     "{": {
-      "opcode": "operator_equals",
+      "opcode": "operator_gt",
       "next": null,
-      "parent": "y",
+      "parent": "e",
       "inputs": {
         "OPERAND1": [
           3,
-          "}",
+          [
+            12,
+            "objectindex",
+            "StS+@^]rUG?wnd,^q=IZ"
+          ],
           [
             10,
             ""
           ]
         ],
         "OPERAND2": [
-          1,
+          3,
+          "|",
           [
             10,
-            ""
+            "50"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "|": {
+      "opcode": "skyhigh173JSON_json_jlength",
+      "next": null,
+      "parent": "{",
+      "inputs": {
+        "json": [
+          3,
+          "}",
+          [
+            10,
+            "{\"key\":\"value\",\"key2\":\"value2\"}"
           ]
         ]
       },
@@ -1779,13 +1822,13 @@
     "}": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
-      "parent": "{",
+      "parent": "|",
       "inputs": {
         "item": [
           1,
           [
             10,
-            "costumes"
+            "targets"
           ]
         ],
         "json": [
@@ -1802,204 +1845,9 @@
       "topLevel": false
     },
     "~": {
-      "opcode": "skyhigh173JSON_json_array_get",
+      "opcode": "cst1229zip_getFile",
       "next": null,
       "parent": "}",
-      "inputs": {
-        "item": [
-          3,
-          [
-            12,
-            "objectindex",
-            "StS+@^]rUG?wnd,^q=IZ"
-          ],
-          [
-            4,
-            "2"
-          ]
-        ],
-        "json": [
-          3,
-          "aa",
-          [
-            10,
-            "[\"scratch\",\"TurboWarp\"]"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "aa": {
-      "opcode": "skyhigh173JSON_json_get",
-      "next": null,
-      "parent": "~",
-      "inputs": {
-        "item": [
-          1,
-          [
-            10,
-            "targets"
-          ]
-        ],
-        "json": [
-          3,
-          "ab",
-          [
-            10,
-            "{\"key\":\"value\"}"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "ab": {
-      "opcode": "cst1229zip_getFile",
-      "next": null,
-      "parent": "aa",
-      "inputs": {
-        "FILE": [
-          1,
-          [
-            10,
-            "project.json"
-          ]
-        ],
-        "TYPE": [
-          1,
-          "bn"
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "bn": {
-      "opcode": "cst1229zip_menu_getFileType",
-      "next": null,
-      "parent": "ab",
-      "inputs": {},
-      "fields": {
-        "getFileType": [
-          "text",
-          null
-        ]
-      },
-      "shadow": true,
-      "topLevel": false
-    },
-    "|": {
-      "opcode": "operator_equals",
-      "next": null,
-      "parent": "y",
-      "inputs": {
-        "OPERAND1": [
-          3,
-          "ac",
-          [
-            10,
-            ""
-          ]
-        ],
-        "OPERAND2": [
-          1,
-          [
-            10,
-            ""
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "ac": {
-      "opcode": "skyhigh173JSON_json_get",
-      "next": null,
-      "parent": "|",
-      "inputs": {
-        "item": [
-          1,
-          [
-            10,
-            "md5ext"
-          ]
-        ],
-        "json": [
-          3,
-          "ad",
-          [
-            10,
-            "{\"key\":\"value\"}"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "ad": {
-      "opcode": "skyhigh173JSON_json_array_get",
-      "next": null,
-      "parent": "ac",
-      "inputs": {
-        "item": [
-          3,
-          [
-            12,
-            "costumeindex",
-            "UVMWrzVf::yEHjqC6=UV"
-          ],
-          [
-            4,
-            "1"
-          ]
-        ],
-        "json": [
-          3,
-          "ae",
-          [
-            10,
-            "[\"scratch\",\"TurboWarp\"]"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "ae": {
-      "opcode": "skyhigh173JSON_json_get",
-      "next": null,
-      "parent": "ad",
-      "inputs": {
-        "item": [
-          1,
-          [
-            10,
-            "targets"
-          ]
-        ],
-        "json": [
-          3,
-          "af",
-          [
-            10,
-            "{\"key\":\"value\"}"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "af": {
-      "opcode": "cst1229zip_getFile",
-      "next": null,
-      "parent": "ae",
       "inputs": {
         "FILE": [
           1,
@@ -2020,7 +1868,7 @@
     "bo": {
       "opcode": "cst1229zip_menu_getFileType",
       "next": null,
-      "parent": "af",
+      "parent": "~",
       "inputs": {},
       "fields": {
         "getFileType": [
@@ -2031,77 +1879,14 @@
       "shadow": true,
       "topLevel": false
     },
-    "bp": {
+    "y": {
       "opcode": "data_setvariableto",
-      "next": "ag",
-      "parent": null,
-      "inputs": {
-        "VALUE": [
-          1,
-          [
-            10,
-            "1"
-          ]
-        ]
-      },
-      "fields": {
-        "VARIABLE": [
-          "costumeindex",
-          "UVMWrzVf::yEHjqC6=UV"
-        ]
-      },
-      "shadow": false,
-      "topLevel": true,
-      "x": 4467,
-      "y": 64
-    },
-    "ag": {
-      "opcode": "control_wait",
-      "next": "bq",
-      "parent": "bp",
-      "inputs": {
-        "DURATION": [
-          1,
-          [
-            5,
-            "1"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "bq": {
-      "opcode": "data_changevariableby",
-      "next": null,
-      "parent": "ag",
-      "inputs": {
-        "VALUE": [
-          1,
-          [
-            4,
-            "1"
-          ]
-        ]
-      },
-      "fields": {
-        "VARIABLE": [
-          "objectindex",
-          "StS+@^]rUG?wnd,^q=IZ"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
-    "z": {
-      "opcode": "data_setvariableto",
-      "next": "ah",
+      "next": "aa",
       "parent": "e",
       "inputs": {
         "VALUE": [
           3,
-          "ai",
+          "ab",
           [
             10,
             "0"
@@ -2117,10 +1902,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "ai": {
+    "ab": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
-      "parent": "z",
+      "parent": "y",
       "inputs": {
         "item": [
           1,
@@ -2131,7 +1916,7 @@
         ],
         "json": [
           3,
-          "aj",
+          "ac",
           [
             10,
             "{\"key\":\"value\"}"
@@ -2142,10 +1927,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "aj": {
+    "ac": {
       "opcode": "skyhigh173JSON_json_array_get",
       "next": null,
-      "parent": "ai",
+      "parent": "ab",
       "inputs": {
         "item": [
           3,
@@ -2161,7 +1946,7 @@
         ],
         "json": [
           3,
-          "ak",
+          "ad",
           [
             10,
             "[\"scratch\",\"TurboWarp\"]"
@@ -2172,10 +1957,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "ak": {
+    "ad": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
-      "parent": "aj",
+      "parent": "ac",
       "inputs": {
         "item": [
           1,
@@ -2186,7 +1971,7 @@
         ],
         "json": [
           3,
-          "al",
+          "ae",
           [
             10,
             "{\"key\":\"value\"}"
@@ -2197,10 +1982,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "al": {
+    "ae": {
       "opcode": "skyhigh173JSON_json_array_get",
       "next": null,
-      "parent": "ak",
+      "parent": "ad",
       "inputs": {
         "item": [
           3,
@@ -2216,7 +2001,7 @@
         ],
         "json": [
           3,
-          "am",
+          "af",
           [
             10,
             "[\"scratch\",\"TurboWarp\"]"
@@ -2227,10 +2012,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "am": {
+    "af": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
-      "parent": "al",
+      "parent": "ae",
       "inputs": {
         "item": [
           1,
@@ -2241,7 +2026,7 @@
         ],
         "json": [
           3,
-          "an",
+          "ag",
           [
             10,
             "{\"key\":\"value\"}"
@@ -2252,10 +2037,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "an": {
+    "ag": {
       "opcode": "cst1229zip_getFile",
       "next": null,
-      "parent": "am",
+      "parent": "af",
       "inputs": {
         "FILE": [
           1,
@@ -2266,17 +2051,17 @@
         ],
         "TYPE": [
           1,
-          "br"
+          "bp"
         ]
       },
       "fields": {},
       "shadow": false,
       "topLevel": false
     },
-    "br": {
+    "bp": {
       "opcode": "cst1229zip_menu_getFileType",
       "next": null,
-      "parent": "an",
+      "parent": "ag",
       "inputs": {},
       "fields": {
         "getFileType": [
@@ -2287,10 +2072,10 @@
       "shadow": true,
       "topLevel": false
     },
-    "ah": {
+    "aa": {
       "opcode": "data_addtolist",
-      "next": "ao",
-      "parent": "z",
+      "next": "ah",
+      "parent": "y",
       "inputs": {
         "ITEM": [
           3,
@@ -2314,10 +2099,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "ao": {
+    "ah": {
       "opcode": "data_changevariableby",
-      "next": "A",
-      "parent": "ah",
+      "next": "z",
+      "parent": "aa",
       "inputs": {
         "VALUE": [
           1,
@@ -2336,35 +2121,42 @@
       "shadow": false,
       "topLevel": false
     },
-    "e": {
-      "opcode": "control_repeat_until",
-      "next": "ap",
-      "parent": "a",
+    "z": {
+      "opcode": "control_if",
+      "next": null,
+      "parent": "ah",
       "inputs": {
-        "SUBSTACK": [
-          2,
-          "z"
-        ],
         "CONDITION": [
           2,
-          "aq"
+          "ai"
+        ],
+        "SUBSTACK": [
+          2,
+          "aj"
         ]
       },
       "fields": {},
       "shadow": false,
       "topLevel": false
     },
-    "ar": {
-      "opcode": "skyhigh173JSON_json_jlength",
+    "ai": {
+      "opcode": "operator_equals",
       "next": null,
-      "parent": "aq",
+      "parent": "z",
       "inputs": {
-        "json": [
+        "OPERAND1": [
           3,
-          "as",
+          "ak",
           [
             10,
-            "{\"key\":\"value\",\"key2\":\"value2\"}"
+            ""
+          ]
+        ],
+        "OPERAND2": [
+          1,
+          [
+            10,
+            ""
           ]
         ]
       },
@@ -2372,21 +2164,51 @@
       "shadow": false,
       "topLevel": false
     },
-    "as": {
+    "ak": {
+      "opcode": "skyhigh173JSON_json_array_get",
+      "next": null,
+      "parent": "ai",
+      "inputs": {
+        "item": [
+          3,
+          [
+            12,
+            "costumeindex",
+            "UVMWrzVf::yEHjqC6=UV"
+          ],
+          [
+            4,
+            "1"
+          ]
+        ],
+        "json": [
+          3,
+          "al",
+          [
+            10,
+            "[\"scratch\",\"TurboWarp\"]"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "al": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
-      "parent": "ar",
+      "parent": "ak",
       "inputs": {
         "item": [
           1,
           [
             10,
-            "targets"
+            "costumes"
           ]
         ],
         "json": [
           3,
-          "at",
+          "am",
           [
             10,
             "{\"key\":\"value\"}"
@@ -2397,10 +2219,257 @@
       "shadow": false,
       "topLevel": false
     },
-    "at": {
+    "am": {
+      "opcode": "skyhigh173JSON_json_array_get",
+      "next": null,
+      "parent": "al",
+      "inputs": {
+        "item": [
+          3,
+          [
+            12,
+            "objectindex",
+            "StS+@^]rUG?wnd,^q=IZ"
+          ],
+          [
+            4,
+            "2"
+          ]
+        ],
+        "json": [
+          3,
+          "an",
+          [
+            10,
+            "[\"scratch\",\"TurboWarp\"]"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "an": {
+      "opcode": "skyhigh173JSON_json_get",
+      "next": null,
+      "parent": "am",
+      "inputs": {
+        "item": [
+          1,
+          [
+            10,
+            "targets"
+          ]
+        ],
+        "json": [
+          3,
+          "ao",
+          [
+            10,
+            "{\"key\":\"value\"}"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "ao": {
       "opcode": "cst1229zip_getFile",
       "next": null,
-      "parent": "as",
+      "parent": "an",
+      "inputs": {
+        "FILE": [
+          1,
+          [
+            10,
+            "project.json"
+          ]
+        ],
+        "TYPE": [
+          1,
+          "bq"
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "bq": {
+      "opcode": "cst1229zip_menu_getFileType",
+      "next": null,
+      "parent": "ao",
+      "inputs": {},
+      "fields": {
+        "getFileType": [
+          "text",
+          null
+        ]
+      },
+      "shadow": true,
+      "topLevel": false
+    },
+    "aj": {
+      "opcode": "data_setvariableto",
+      "next": "br",
+      "parent": "z",
+      "inputs": {
+        "VALUE": [
+          1,
+          [
+            10,
+            "1"
+          ]
+        ]
+      },
+      "fields": {
+        "VARIABLE": [
+          "costumeindex",
+          "UVMWrzVf::yEHjqC6=UV"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "br": {
+      "opcode": "data_changevariableby",
+      "next": null,
+      "parent": "aj",
+      "inputs": {
+        "VALUE": [
+          1,
+          [
+            4,
+            "1"
+          ]
+        ]
+      },
+      "fields": {
+        "VARIABLE": [
+          "objectindex",
+          "StS+@^]rUG?wnd,^q=IZ"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "`": {
+      "opcode": "data_setvariableto",
+      "next": "f",
+      "parent": "e",
+      "inputs": {
+        "VALUE": [
+          1,
+          [
+            10,
+            "0"
+          ]
+        ]
+      },
+      "fields": {
+        "VARIABLE": [
+          "shit",
+          "D|r=cq[yi{M13#y{iny@"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "f": {
+      "opcode": "control_repeat_until",
+      "next": "g",
+      "parent": "`",
+      "inputs": {
+        "CONDITION": [
+          2,
+          "ap"
+        ],
+        "SUBSTACK": [
+          2,
+          "A"
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "ap": {
+      "opcode": "operator_gt",
+      "next": null,
+      "parent": "f",
+      "inputs": {
+        "OPERAND1": [
+          3,
+          [
+            12,
+            "object_sound_index",
+            "|~$nr~*4wrjJ]0;1h(|J"
+          ],
+          [
+            10,
+            ""
+          ]
+        ],
+        "OPERAND2": [
+          3,
+          "aq",
+          [
+            10,
+            "50"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "aq": {
+      "opcode": "skyhigh173JSON_json_jlength",
+      "next": null,
+      "parent": "ap",
+      "inputs": {
+        "json": [
+          3,
+          "ar",
+          [
+            10,
+            "{\"key\":\"value\",\"key2\":\"value2\"}"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "ar": {
+      "opcode": "skyhigh173JSON_json_get",
+      "next": null,
+      "parent": "aq",
+      "inputs": {
+        "item": [
+          1,
+          [
+            10,
+            "targets"
+          ]
+        ],
+        "json": [
+          3,
+          "as",
+          [
+            10,
+            "{\"key\":\"value\"}"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "as": {
+      "opcode": "cst1229zip_getFile",
+      "next": null,
+      "parent": "ar",
       "inputs": {
         "FILE": [
           1,
@@ -2421,7 +2490,7 @@
     "bs": {
       "opcode": "cst1229zip_menu_getFileType",
       "next": null,
-      "parent": "at",
+      "parent": "as",
       "inputs": {},
       "fields": {
         "getFileType": [
@@ -2430,278 +2499,16 @@
         ]
       },
       "shadow": true,
-      "topLevel": false
-    },
-    "aq": {
-      "opcode": "operator_gt",
-      "next": null,
-      "parent": "e",
-      "inputs": {
-        "OPERAND1": [
-          3,
-          [
-            12,
-            "objectindex",
-            "StS+@^]rUG?wnd,^q=IZ"
-          ],
-          [
-            10,
-            ""
-          ]
-        ],
-        "OPERAND2": [
-          3,
-          "ar",
-          [
-            10,
-            "50"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "bt": {
-      "opcode": "data_changevariableby",
-      "next": null,
-      "parent": "au",
-      "inputs": {
-        "VALUE": [
-          1,
-          [
-            4,
-            "1"
-          ]
-        ]
-      },
-      "fields": {
-        "VARIABLE": [
-          "objectindex",
-          "StS+@^]rUG?wnd,^q=IZ"
-        ]
-      },
-      "shadow": false,
       "topLevel": false
     },
     "A": {
-      "opcode": "control_if",
-      "next": null,
-      "parent": "ao",
-      "inputs": {
-        "CONDITION": [
-          2,
-          "av"
-        ],
-        "SUBSTACK": [
-          2,
-          "au"
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "av": {
-      "opcode": "operator_equals",
-      "next": null,
-      "parent": "A",
-      "inputs": {
-        "OPERAND1": [
-          3,
-          "aw",
-          [
-            10,
-            ""
-          ]
-        ],
-        "OPERAND2": [
-          1,
-          [
-            10,
-            ""
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "aw": {
-      "opcode": "skyhigh173JSON_json_array_get",
-      "next": null,
-      "parent": "av",
-      "inputs": {
-        "item": [
-          3,
-          [
-            12,
-            "costumeindex",
-            "UVMWrzVf::yEHjqC6=UV"
-          ],
-          [
-            4,
-            "1"
-          ]
-        ],
-        "json": [
-          3,
-          "ax",
-          [
-            10,
-            "[\"scratch\",\"TurboWarp\"]"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "ax": {
-      "opcode": "skyhigh173JSON_json_get",
-      "next": null,
-      "parent": "aw",
-      "inputs": {
-        "item": [
-          1,
-          [
-            10,
-            "costumes"
-          ]
-        ],
-        "json": [
-          3,
-          "ay",
-          [
-            10,
-            "{\"key\":\"value\"}"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "ay": {
-      "opcode": "skyhigh173JSON_json_array_get",
-      "next": null,
-      "parent": "ax",
-      "inputs": {
-        "item": [
-          3,
-          [
-            12,
-            "objectindex",
-            "StS+@^]rUG?wnd,^q=IZ"
-          ],
-          [
-            4,
-            "2"
-          ]
-        ],
-        "json": [
-          3,
-          "az",
-          [
-            10,
-            "[\"scratch\",\"TurboWarp\"]"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "az": {
-      "opcode": "skyhigh173JSON_json_get",
-      "next": null,
-      "parent": "ay",
-      "inputs": {
-        "item": [
-          1,
-          [
-            10,
-            "targets"
-          ]
-        ],
-        "json": [
-          3,
-          "aA",
-          [
-            10,
-            "{\"key\":\"value\"}"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "aA": {
-      "opcode": "cst1229zip_getFile",
-      "next": null,
-      "parent": "az",
-      "inputs": {
-        "FILE": [
-          1,
-          [
-            10,
-            "project.json"
-          ]
-        ],
-        "TYPE": [
-          1,
-          "bu"
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "bu": {
-      "opcode": "cst1229zip_menu_getFileType",
-      "next": null,
-      "parent": "aA",
-      "inputs": {},
-      "fields": {
-        "getFileType": [
-          "text",
-          null
-        ]
-      },
-      "shadow": true,
-      "topLevel": false
-    },
-    "au": {
       "opcode": "data_setvariableto",
-      "next": "bt",
-      "parent": "A",
-      "inputs": {
-        "VALUE": [
-          1,
-          [
-            10,
-            "1"
-          ]
-        ]
-      },
-      "fields": {
-        "VARIABLE": [
-          "costumeindex",
-          "UVMWrzVf::yEHjqC6=UV"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
-    "B": {
-      "opcode": "data_setvariableto",
-      "next": "aB",
+      "next": "at",
       "parent": "f",
       "inputs": {
         "VALUE": [
           3,
-          "aC",
+          "au",
           [
             10,
             "0"
@@ -2717,10 +2524,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "aC": {
+    "au": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
-      "parent": "B",
+      "parent": "A",
       "inputs": {
         "item": [
           1,
@@ -2731,7 +2538,7 @@
         ],
         "json": [
           3,
-          "aD",
+          "av",
           [
             10,
             "{\"key\":\"value\"}"
@@ -2742,10 +2549,247 @@
       "shadow": false,
       "topLevel": false
     },
+    "av": {
+      "opcode": "skyhigh173JSON_json_array_get",
+      "next": null,
+      "parent": "au",
+      "inputs": {
+        "item": [
+          3,
+          [
+            12,
+            "soundindex",
+            "vtR6y}v_bCCYx~fuASM:"
+          ],
+          [
+            4,
+            "1"
+          ]
+        ],
+        "json": [
+          3,
+          "aw",
+          [
+            10,
+            "[\"scratch\",\"TurboWarp\"]"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "aw": {
+      "opcode": "skyhigh173JSON_json_get",
+      "next": null,
+      "parent": "av",
+      "inputs": {
+        "item": [
+          1,
+          [
+            10,
+            "sounds"
+          ]
+        ],
+        "json": [
+          3,
+          "ax",
+          [
+            10,
+            "{\"key\":\"value\"}"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "ax": {
+      "opcode": "skyhigh173JSON_json_array_get",
+      "next": null,
+      "parent": "aw",
+      "inputs": {
+        "item": [
+          3,
+          [
+            12,
+            "object_sound_index",
+            "|~$nr~*4wrjJ]0;1h(|J"
+          ],
+          [
+            4,
+            "2"
+          ]
+        ],
+        "json": [
+          3,
+          "ay",
+          [
+            10,
+            "[\"scratch\",\"TurboWarp\"]"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "ay": {
+      "opcode": "skyhigh173JSON_json_get",
+      "next": null,
+      "parent": "ax",
+      "inputs": {
+        "item": [
+          1,
+          [
+            10,
+            "targets"
+          ]
+        ],
+        "json": [
+          3,
+          "az",
+          [
+            10,
+            "{\"key\":\"value\"}"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "az": {
+      "opcode": "cst1229zip_getFile",
+      "next": null,
+      "parent": "ay",
+      "inputs": {
+        "FILE": [
+          1,
+          [
+            10,
+            "project.json"
+          ]
+        ],
+        "TYPE": [
+          1,
+          "bt"
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "bt": {
+      "opcode": "cst1229zip_menu_getFileType",
+      "next": null,
+      "parent": "az",
+      "inputs": {},
+      "fields": {
+        "getFileType": [
+          "text",
+          null
+        ]
+      },
+      "shadow": true,
+      "topLevel": false
+    },
+    "at": {
+      "opcode": "data_addtolist",
+      "next": "aA",
+      "parent": "A",
+      "inputs": {
+        "ITEM": [
+          3,
+          [
+            12,
+            "shit",
+            "D|r=cq[yi{M13#y{iny@"
+          ],
+          [
+            10,
+            "cosa"
+          ]
+        ]
+      },
+      "fields": {
+        "LIST": [
+          "sounds",
+          "--mE/dy,t58LTqWN:lHD"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "aA": {
+      "opcode": "data_changevariableby",
+      "next": "B",
+      "parent": "at",
+      "inputs": {
+        "VALUE": [
+          1,
+          [
+            4,
+            "1"
+          ]
+        ]
+      },
+      "fields": {
+        "VARIABLE": [
+          "soundindex",
+          "vtR6y}v_bCCYx~fuASM:"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "B": {
+      "opcode": "control_if",
+      "next": null,
+      "parent": "aA",
+      "inputs": {
+        "CONDITION": [
+          2,
+          "aB"
+        ],
+        "SUBSTACK": [
+          2,
+          "aC"
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "aB": {
+      "opcode": "operator_equals",
+      "next": null,
+      "parent": "B",
+      "inputs": {
+        "OPERAND1": [
+          3,
+          "aD",
+          [
+            10,
+            ""
+          ]
+        ],
+        "OPERAND2": [
+          1,
+          [
+            10,
+            ""
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
     "aD": {
       "opcode": "skyhigh173JSON_json_array_get",
       "next": null,
-      "parent": "aC",
+      "parent": "aB",
       "inputs": {
         "item": [
           3,
@@ -2866,14 +2910,14 @@
         ],
         "TYPE": [
           1,
-          "bv"
+          "bu"
         ]
       },
       "fields": {},
       "shadow": false,
       "topLevel": false
     },
-    "bv": {
+    "bu": {
       "opcode": "cst1229zip_menu_getFileType",
       "next": null,
       "parent": "aH",
@@ -2887,248 +2931,11 @@
       "shadow": true,
       "topLevel": false
     },
-    "aB": {
-      "opcode": "data_addtolist",
-      "next": "aI",
+    "aC": {
+      "opcode": "data_setvariableto",
+      "next": "bv",
       "parent": "B",
       "inputs": {
-        "ITEM": [
-          3,
-          [
-            12,
-            "shit",
-            "D|r=cq[yi{M13#y{iny@"
-          ],
-          [
-            10,
-            "cosa"
-          ]
-        ]
-      },
-      "fields": {
-        "LIST": [
-          "sounds",
-          "--mE/dy,t58LTqWN:lHD"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
-    "aI": {
-      "opcode": "data_changevariableby",
-      "next": "C",
-      "parent": "aB",
-      "inputs": {
-        "VALUE": [
-          1,
-          [
-            4,
-            "1"
-          ]
-        ]
-      },
-      "fields": {
-        "VARIABLE": [
-          "soundindex",
-          "vtR6y}v_bCCYx~fuASM:"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
-    "C": {
-      "opcode": "control_if",
-      "next": null,
-      "parent": "aI",
-      "inputs": {
-        "CONDITION": [
-          2,
-          "aJ"
-        ],
-        "SUBSTACK": [
-          2,
-          "aK"
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "aJ": {
-      "opcode": "operator_equals",
-      "next": null,
-      "parent": "C",
-      "inputs": {
-        "OPERAND1": [
-          3,
-          "aL",
-          [
-            10,
-            ""
-          ]
-        ],
-        "OPERAND2": [
-          1,
-          [
-            10,
-            ""
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "aL": {
-      "opcode": "skyhigh173JSON_json_array_get",
-      "next": null,
-      "parent": "aJ",
-      "inputs": {
-        "item": [
-          3,
-          [
-            12,
-            "soundindex",
-            "vtR6y}v_bCCYx~fuASM:"
-          ],
-          [
-            4,
-            "1"
-          ]
-        ],
-        "json": [
-          3,
-          "aM",
-          [
-            10,
-            "[\"scratch\",\"TurboWarp\"]"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "aM": {
-      "opcode": "skyhigh173JSON_json_get",
-      "next": null,
-      "parent": "aL",
-      "inputs": {
-        "item": [
-          1,
-          [
-            10,
-            "sounds"
-          ]
-        ],
-        "json": [
-          3,
-          "aN",
-          [
-            10,
-            "{\"key\":\"value\"}"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "aN": {
-      "opcode": "skyhigh173JSON_json_array_get",
-      "next": null,
-      "parent": "aM",
-      "inputs": {
-        "item": [
-          3,
-          [
-            12,
-            "object_sound_index",
-            "|~$nr~*4wrjJ]0;1h(|J"
-          ],
-          [
-            4,
-            "2"
-          ]
-        ],
-        "json": [
-          3,
-          "aO",
-          [
-            10,
-            "[\"scratch\",\"TurboWarp\"]"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "aO": {
-      "opcode": "skyhigh173JSON_json_get",
-      "next": null,
-      "parent": "aN",
-      "inputs": {
-        "item": [
-          1,
-          [
-            10,
-            "targets"
-          ]
-        ],
-        "json": [
-          3,
-          "aP",
-          [
-            10,
-            "{\"key\":\"value\"}"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "aP": {
-      "opcode": "cst1229zip_getFile",
-      "next": null,
-      "parent": "aO",
-      "inputs": {
-        "FILE": [
-          1,
-          [
-            10,
-            "project.json"
-          ]
-        ],
-        "TYPE": [
-          1,
-          "bw"
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "bw": {
-      "opcode": "cst1229zip_menu_getFileType",
-      "next": null,
-      "parent": "aP",
-      "inputs": {},
-      "fields": {
-        "getFileType": [
-          "text",
-          null
-        ]
-      },
-      "shadow": true,
-      "topLevel": false
-    },
-    "aK": {
-      "opcode": "data_setvariableto",
-      "next": "bx",
-      "parent": "C",
-      "inputs": {
         "VALUE": [
           1,
           [
@@ -3146,10 +2953,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "bx": {
+    "bv": {
       "opcode": "data_changevariableby",
       "next": null,
-      "parent": "aK",
+      "parent": "aC",
       "inputs": {
         "VALUE": [
           1,
@@ -3168,80 +2975,14 @@
       "shadow": false,
       "topLevel": false
     },
-    "f": {
-      "opcode": "control_repeat_until",
-      "next": "g",
-      "parent": "ap",
-      "inputs": {
-        "CONDITION": [
-          2,
-          "aQ"
-        ],
-        "SUBSTACK": [
-          2,
-          "B"
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "aQ": {
-      "opcode": "operator_gt",
-      "next": null,
-      "parent": "f",
-      "inputs": {
-        "OPERAND1": [
-          3,
-          [
-            12,
-            "object_sound_index",
-            "|~$nr~*4wrjJ]0;1h(|J"
-          ],
-          [
-            10,
-            ""
-          ]
-        ],
-        "OPERAND2": [
-          3,
-          "aR",
-          [
-            10,
-            "50"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "aR": {
-      "opcode": "skyhigh173JSON_json_jlength",
-      "next": null,
-      "parent": "aQ",
-      "inputs": {
-        "json": [
-          3,
-          "aS",
-          [
-            10,
-            "{\"key\":\"value\",\"key2\":\"value2\"}"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
     "g": {
       "opcode": "control_repeat",
-      "next": "aT",
+      "next": "aI",
       "parent": "f",
       "inputs": {
         "TIMES": [
           3,
-          "by",
+          "bw",
           [
             6,
             "10"
@@ -3249,14 +2990,14 @@
         ],
         "SUBSTACK": [
           2,
-          "aU"
+          "aJ"
         ]
       },
       "fields": {},
       "shadow": false,
       "topLevel": false
     },
-    "by": {
+    "bw": {
       "opcode": "data_lengthoflist",
       "next": null,
       "parent": "g",
@@ -3270,7 +3011,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "aU": {
+    "aJ": {
       "opcode": "data_changevariableby",
       "next": "h",
       "parent": "g",
@@ -3295,11 +3036,11 @@
     "h": {
       "opcode": "cst1229zip_writeFile",
       "next": null,
-      "parent": "aU",
+      "parent": "aJ",
       "inputs": {
         "FILE": [
           3,
-          "bz",
+          "bx",
           [
             10,
             "new file.txt"
@@ -3307,7 +3048,7 @@
         ],
         "CONTENT": [
           3,
-          "aV",
+          "aK",
           [
             10,
             "Hello, world?"
@@ -3315,14 +3056,14 @@
         ],
         "TYPE": [
           1,
-          "bA"
+          "by"
         ]
       },
       "fields": {},
       "shadow": false,
       "topLevel": false
     },
-    "bz": {
+    "bx": {
       "opcode": "data_itemoflist",
       "next": null,
       "parent": "h",
@@ -3349,7 +3090,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "aV": {
+    "aK": {
       "opcode": "operator_join",
       "next": null,
       "parent": "h",
@@ -3363,7 +3104,7 @@
         ],
         "STRING2": [
           3,
-          "aW",
+          "aL",
           [
             10,
             "pl\u00e1tano"
@@ -3374,14 +3115,14 @@
       "shadow": false,
       "topLevel": false
     },
-    "aW": {
+    "aL": {
       "opcode": "operator_join",
       "next": null,
-      "parent": "aV",
+      "parent": "aK",
       "inputs": {
         "STRING1": [
           3,
-          "bB",
+          "bz",
           [
             10,
             "manzana "
@@ -3399,10 +3140,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "bB": {
+    "bz": {
       "opcode": "data_itemoflist",
       "next": null,
-      "parent": "aW",
+      "parent": "aL",
       "inputs": {
         "INDEX": [
           3,
@@ -3426,7 +3167,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "bA": {
+    "by": {
       "opcode": "cst1229zip_menu_writeFileType",
       "next": null,
       "parent": "h",
@@ -3440,7 +3181,7 @@
       "shadow": true,
       "topLevel": false
     },
-    "aT": {
+    "aI": {
       "opcode": "data_setvariableto",
       "next": "i",
       "parent": "g",
@@ -3465,11 +3206,11 @@
     "i": {
       "opcode": "control_repeat",
       "next": "b",
-      "parent": "aT",
+      "parent": "aI",
       "inputs": {
         "TIMES": [
           3,
-          "bC",
+          "bA",
           [
             6,
             "10"
@@ -3477,14 +3218,14 @@
         ],
         "SUBSTACK": [
           2,
-          "aX"
+          "aM"
         ]
       },
       "fields": {},
       "shadow": false,
       "topLevel": false
     },
-    "bC": {
+    "bA": {
       "opcode": "data_lengthoflist",
       "next": null,
       "parent": "i",
@@ -3498,7 +3239,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "aX": {
+    "aM": {
       "opcode": "data_changevariableby",
       "next": "j",
       "parent": "i",
@@ -3523,11 +3264,11 @@
     "j": {
       "opcode": "cst1229zip_writeFile",
       "next": null,
-      "parent": "aX",
+      "parent": "aM",
       "inputs": {
         "FILE": [
           3,
-          "bD",
+          "bB",
           [
             10,
             "new file.txt"
@@ -3535,7 +3276,7 @@
         ],
         "CONTENT": [
           3,
-          "aY",
+          "aN",
           [
             10,
             "Hello, world?"
@@ -3543,14 +3284,14 @@
         ],
         "TYPE": [
           1,
-          "bE"
+          "bC"
         ]
       },
       "fields": {},
       "shadow": false,
       "topLevel": false
     },
-    "bD": {
+    "bB": {
       "opcode": "data_itemoflist",
       "next": null,
       "parent": "j",
@@ -3577,7 +3318,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "aY": {
+    "aN": {
       "opcode": "operator_join",
       "next": null,
       "parent": "j",
@@ -3591,7 +3332,7 @@
         ],
         "STRING2": [
           3,
-          "aZ",
+          "aO",
           [
             10,
             "pl\u00e1tano"
@@ -3602,14 +3343,14 @@
       "shadow": false,
       "topLevel": false
     },
-    "aZ": {
+    "aO": {
       "opcode": "operator_join",
       "next": null,
-      "parent": "aY",
+      "parent": "aN",
       "inputs": {
         "STRING1": [
           3,
-          "bF",
+          "bD",
           [
             10,
             "manzana "
@@ -3627,10 +3368,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "bF": {
+    "bD": {
       "opcode": "data_itemoflist",
       "next": null,
-      "parent": "aZ",
+      "parent": "aO",
       "inputs": {
         "INDEX": [
           3,
@@ -3654,7 +3395,7 @@
       "shadow": false,
       "topLevel": false
     },
-    "bE": {
+    "bC": {
       "opcode": "cst1229zip_menu_writeFileType",
       "next": null,
       "parent": "j",
@@ -3668,470 +3409,6 @@
       "shadow": true,
       "topLevel": false
     },
-    "ap": {
-      "opcode": "data_setvariableto",
-      "next": "f",
-      "parent": "e",
-      "inputs": {
-        "VALUE": [
-          1,
-          [
-            10,
-            "0"
-          ]
-        ]
-      },
-      "fields": {
-        "VARIABLE": [
-          "shit",
-          "D|r=cq[yi{M13#y{iny@"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
-    "aS": {
-      "opcode": "skyhigh173JSON_json_get",
-      "next": null,
-      "parent": "aR",
-      "inputs": {
-        "item": [
-          1,
-          [
-            10,
-            "targets"
-          ]
-        ],
-        "json": [
-          3,
-          "a!",
-          [
-            10,
-            "{\"key\":\"value\"}"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "a!": {
-      "opcode": "cst1229zip_getFile",
-      "next": null,
-      "parent": "aS",
-      "inputs": {
-        "FILE": [
-          1,
-          [
-            10,
-            "project.json"
-          ]
-        ],
-        "TYPE": [
-          1,
-          "bG"
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "bG": {
-      "opcode": "cst1229zip_menu_getFileType",
-      "next": null,
-      "parent": "a!",
-      "inputs": {},
-      "fields": {
-        "getFileType": [
-          "text",
-          null
-        ]
-      },
-      "shadow": true,
-      "topLevel": false
-    },
-    ":": {
-      "opcode": "data_setvariableto",
-      "next": "=",
-      "parent": "/",
-      "inputs": {
-        "VALUE": [
-          1,
-          [
-            10,
-            "1"
-          ]
-        ]
-      },
-      "fields": {
-        "VARIABLE": [
-          "object_sound_index",
-          "|~$nr~*4wrjJ]0;1h(|J"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
-    "=": {
-      "opcode": "data_setvariableto",
-      "next": ";",
-      "parent": ":",
-      "inputs": {
-        "VALUE": [
-          1,
-          [
-            10,
-            "1"
-          ]
-        ]
-      },
-      "fields": {
-        "VARIABLE": [
-          "costumeindex",
-          "UVMWrzVf::yEHjqC6=UV"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
-    "R": {
-      "opcode": "data_setvariableto",
-      "next": "S",
-      "parent": "Q",
-      "inputs": {
-        "VALUE": [
-          1,
-          [
-            10,
-            ""
-          ]
-        ]
-      },
-      "fields": {
-        "VARIABLE": [
-          "token",
-          "9Ah^I1K8EAi[~H4AFBG="
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
-    "T": {
-      "opcode": "data_setvariableto",
-      "next": "U",
-      "parent": "S",
-      "inputs": {
-        "VALUE": [
-          1,
-          [
-            10,
-            ""
-          ]
-        ]
-      },
-      "fields": {
-        "VARIABLE": [
-          "md5ext",
-          "|CnJbf!Vt*m5o?;Xk2z/"
-        ]
-      },
-      "shadow": false,
-      "topLevel": false
-    },
-    "a": {
-      "opcode": "control_if_else",
-      "next": null,
-      "parent": "d",
-      "inputs": {
-        "CONDITION": [
-          2,
-          "a#"
-        ],
-        "SUBSTACK": [
-          2,
-          "D"
-        ],
-        "SUBSTACK2": [
-          2,
-          "e"
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false,
-      "comment": "bH"
-    },
-    "D": {
-      "opcode": "cst1229zip_renameFile",
-      "next": "E",
-      "parent": "a",
-      "inputs": {
-        "FROM": [
-          1,
-          [
-            10,
-            "project.json"
-          ]
-        ],
-        "TO": [
-          3,
-          "bI",
-          [
-            10,
-            "hello renamed.txt"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "bI": {
-      "opcode": "operator_join",
-      "next": null,
-      "parent": "D",
-      "inputs": {
-        "STRING1": [
-          3,
-          [
-            12,
-            "title",
-            "7iX#;/DOld25!e)=|m`^"
-          ],
-          [
-            10,
-            "manzana "
-          ]
-        ],
-        "STRING2": [
-          1,
-          [
-            10,
-            ".sb"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "a#": {
-      "opcode": "operator_contains",
-      "next": null,
-      "parent": "a",
-      "inputs": {
-        "STRING2": [
-          1,
-          [
-            10,
-            "ScratchV01"
-          ]
-        ],
-        "STRING1": [
-          3,
-          "a%",
-          [
-            10,
-            ""
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "a%": {
-      "opcode": "cst1229zip_getFile",
-      "next": null,
-      "parent": "a#",
-      "inputs": {
-        "FILE": [
-          1,
-          [
-            10,
-            "project.json"
-          ]
-        ],
-        "TYPE": [
-          1,
-          "bJ"
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "bJ": {
-      "opcode": "cst1229zip_menu_getFileType",
-      "next": null,
-      "parent": "a%",
-      "inputs": {},
-      "fields": {
-        "getFileType": [
-          "text",
-          null
-        ]
-      },
-      "shadow": true,
-      "topLevel": false
-    },
-    "E": {
-      "opcode": "files_downloadURL",
-      "next": null,
-      "parent": "D",
-      "inputs": {
-        "url": [
-          3,
-          "F",
-          [
-            10,
-            "data:text/plain;base64,SGVsbG8sIHdvcmxkIQ=="
-          ]
-        ],
-        "file": [
-          3,
-          "bK",
-          [
-            10,
-            "save.txt"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "bK": {
-      "opcode": "operator_join",
-      "next": null,
-      "parent": "E",
-      "inputs": {
-        "STRING1": [
-          3,
-          [
-            12,
-            "title",
-            "7iX#;/DOld25!e)=|m`^"
-          ],
-          [
-            10,
-            "manzana "
-          ]
-        ],
-        "STRING2": [
-          1,
-          [
-            10,
-            ".sb"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "F": {
-      "opcode": "cst1229zip_getFile",
-      "next": null,
-      "parent": "E",
-      "inputs": {
-        "FILE": [
-          3,
-          "bL",
-          [
-            10,
-            "project.json"
-          ]
-        ],
-        "TYPE": [
-          1,
-          "bM"
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "bM": {
-      "opcode": "cst1229zip_menu_getFileType",
-      "next": null,
-      "parent": "F",
-      "inputs": {},
-      "fields": {
-        "getFileType": [
-          "data: URL",
-          null
-        ]
-      },
-      "shadow": true,
-      "topLevel": false
-    },
-    "bL": {
-      "opcode": "operator_join",
-      "next": null,
-      "parent": "F",
-      "inputs": {
-        "STRING1": [
-          3,
-          [
-            12,
-            "title",
-            "7iX#;/DOld25!e)=|m`^"
-          ],
-          [
-            10,
-            "manzana "
-          ]
-        ],
-        "STRING2": [
-          1,
-          [
-            10,
-            ".sb"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "bN": {
-      "opcode": "cst1229zip_getFile",
-      "next": null,
-      "parent": null,
-      "inputs": {
-        "FILE": [
-          1,
-          [
-            10,
-            "project.json"
-          ]
-        ],
-        "TYPE": [
-          1,
-          "bO"
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": true,
-      "x": 1707,
-      "y": 1791
-    },
-    "bO": {
-      "opcode": "cst1229zip_menu_getFileType",
-      "next": null,
-      "parent": "bN",
-      "inputs": {},
-      "fields": {
-        "getFileType": [
-          "text",
-          null
-        ]
-      },
-      "shadow": true,
-      "topLevel": false
-    },
     "b": {
       "opcode": "control_if_else",
       "next": null,
@@ -4139,30 +3416,30 @@
       "inputs": {
         "CONDITION": [
           2,
-          "a("
-        ],
-        "SUBSTACK2": [
-          2,
-          "G"
+          "aP"
         ],
         "SUBSTACK": [
           2,
-          "H"
+          "C"
+        ],
+        "SUBSTACK2": [
+          2,
+          "D"
         ]
       },
       "fields": {},
       "shadow": false,
       "topLevel": false,
-      "comment": "bP"
+      "comment": "bE"
     },
-    "a(": {
+    "aP": {
       "opcode": "skyhigh173JSON_json_has_key",
       "next": null,
       "parent": "b",
       "inputs": {
         "json": [
           3,
-          "a)",
+          "aQ",
           [
             10,
             "{\"key\":\"value\"}"
@@ -4180,10 +3457,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "a)": {
+    "aQ": {
       "opcode": "skyhigh173JSON_json_get",
       "next": null,
-      "parent": "a(",
+      "parent": "aP",
       "inputs": {
         "item": [
           1,
@@ -4194,7 +3471,7 @@
         ],
         "json": [
           3,
-          "a*",
+          "aR",
           [
             10,
             "{\"key\":\"value\"}"
@@ -4205,10 +3482,10 @@
       "shadow": false,
       "topLevel": false
     },
-    "a*": {
+    "aR": {
       "opcode": "cst1229zip_getFile",
       "next": null,
-      "parent": "a)",
+      "parent": "aQ",
       "inputs": {
         "FILE": [
           1,
@@ -4219,17 +3496,17 @@
         ],
         "TYPE": [
           1,
-          "bQ"
+          "bF"
         ]
       },
       "fields": {},
       "shadow": false,
       "topLevel": false
     },
-    "bQ": {
+    "bF": {
       "opcode": "cst1229zip_menu_getFileType",
       "next": null,
-      "parent": "a*",
+      "parent": "aR",
       "inputs": {},
       "fields": {
         "getFileType": [
@@ -4240,14 +3517,14 @@
       "shadow": true,
       "topLevel": false
     },
-    "G": {
+    "C": {
       "opcode": "files_downloadURL",
       "next": null,
       "parent": "b",
       "inputs": {
         "url": [
           3,
-          "I",
+          "E",
           [
             10,
             "data:text/plain;base64,SGVsbG8sIHdvcmxkIQ=="
@@ -4255,7 +3532,7 @@
         ],
         "file": [
           3,
-          "bR",
+          "bG",
           [
             10,
             "save.txt"
@@ -4266,28 +3543,28 @@
       "shadow": false,
       "topLevel": false
     },
-    "I": {
+    "E": {
       "opcode": "cst1229zip_getZip",
       "next": null,
-      "parent": "G",
+      "parent": "C",
       "inputs": {
         "TYPE": [
           1,
-          "bS"
+          "bH"
         ],
         "COMPRESSION": [
           1,
-          "bT"
+          "bI"
         ]
       },
       "fields": {},
       "shadow": false,
       "topLevel": false
     },
-    "bS": {
+    "bH": {
       "opcode": "cst1229zip_menu_zipFileType",
       "next": null,
-      "parent": "I",
+      "parent": "E",
       "inputs": {},
       "fields": {
         "zipFileType": [
@@ -4298,10 +3575,10 @@
       "shadow": true,
       "topLevel": false
     },
-    "bT": {
+    "bI": {
       "opcode": "cst1229zip_menu_compressionLevel",
       "next": null,
-      "parent": "I",
+      "parent": "E",
       "inputs": {},
       "fields": {
         "compressionLevel": [
@@ -4312,10 +3589,111 @@
       "shadow": true,
       "topLevel": false
     },
-    "bR": {
+    "bG": {
       "opcode": "operator_join",
       "next": null,
-      "parent": "G",
+      "parent": "C",
+      "inputs": {
+        "STRING1": [
+          3,
+          [
+            12,
+            "title",
+            "7iX#;/DOld25!e)=|m`^"
+          ],
+          [
+            10,
+            "manzana "
+          ]
+        ],
+        "STRING2": [
+          1,
+          [
+            10,
+            ".sb2"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "D": {
+      "opcode": "files_downloadURL",
+      "next": null,
+      "parent": "b",
+      "inputs": {
+        "url": [
+          3,
+          "F",
+          [
+            10,
+            "data:text/plain;base64,SGVsbG8sIHdvcmxkIQ=="
+          ]
+        ],
+        "file": [
+          3,
+          "bJ",
+          [
+            10,
+            "save.txt"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "F": {
+      "opcode": "cst1229zip_getZip",
+      "next": null,
+      "parent": "D",
+      "inputs": {
+        "TYPE": [
+          1,
+          "bK"
+        ],
+        "COMPRESSION": [
+          1,
+          "bL"
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "bK": {
+      "opcode": "cst1229zip_menu_zipFileType",
+      "next": null,
+      "parent": "F",
+      "inputs": {},
+      "fields": {
+        "zipFileType": [
+          "data: URL",
+          null
+        ]
+      },
+      "shadow": true,
+      "topLevel": false
+    },
+    "bL": {
+      "opcode": "cst1229zip_menu_compressionLevel",
+      "next": null,
+      "parent": "F",
+      "inputs": {},
+      "fields": {
+        "compressionLevel": [
+          "6",
+          null
+        ]
+      },
+      "shadow": true,
+      "topLevel": false
+    },
+    "bJ": {
+      "opcode": "operator_join",
+      "next": null,
+      "parent": "D",
       "inputs": {
         "STRING1": [
           3,
@@ -4341,54 +3719,30 @@
       "shadow": false,
       "topLevel": false
     },
-    "H": {
-      "opcode": "files_downloadURL",
-      "next": null,
-      "parent": "b",
-      "inputs": {
-        "url": [
-          3,
-          "J",
-          [
-            10,
-            "data:text/plain;base64,SGVsbG8sIHdvcmxkIQ=="
-          ]
-        ],
-        "file": [
-          3,
-          "bU",
-          [
-            10,
-            "save.txt"
-          ]
-        ]
-      },
-      "fields": {},
-      "shadow": false,
-      "topLevel": false
-    },
-    "J": {
+    "aS": {
       "opcode": "cst1229zip_getZip",
       "next": null,
-      "parent": "H",
+      "parent": null,
       "inputs": {
         "TYPE": [
           1,
-          "bV"
+          "bM"
         ],
         "COMPRESSION": [
           1,
-          "bW"
+          "bN"
         ]
       },
       "fields": {},
       "shadow": false,
-      "topLevel": false
+      "topLevel": true,
+      "x": 48,
+      "y": 64
     },
-    "bV": {
+    "bM": {
       "opcode": "cst1229zip_menu_zipFileType",
       "next": null,
-      "parent": "J",
+      "parent": "aS",
       "inputs": {},
       "fields": {
         "zipFileType": [
@@ -4399,10 +3753,10 @@
       "shadow": true,
       "topLevel": false
     },
-    "bW": {
+    "bN": {
       "opcode": "cst1229zip_menu_compressionLevel",
       "next": null,
-      "parent": "J",
+      "parent": "aS",
       "inputs": {},
       "fields": {
         "compressionLevel": [
@@ -4413,10 +3767,776 @@
       "shadow": true,
       "topLevel": false
     },
-    "bU": {
-      "opcode": "operator_join",
+    "b.": {
+      "opcode": "skyhigh173JSON_json_jlength",
+      "next": null,
+      "parent": null,
+      "inputs": {
+        "json": [
+          1,
+          [
+            10,
+            "{\"key\":\"value\",\"key2\":\"value2\"}"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": true,
+      "x": 48,
+      "y": 184
+    },
+    "b/": {
+      "opcode": "skyhigh173JSON_json_length",
+      "next": null,
+      "parent": null,
+      "inputs": {
+        "json": [
+          1,
+          [
+            10,
+            "[1,2,3]"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": true,
+      "x": 48,
+      "y": 296
+    },
+    "bO": {
+      "opcode": "event_whenflagclicked",
+      "next": "aT",
+      "parent": null,
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": true,
+      "x": 4467,
+      "y": 288
+    },
+    "aT": {
+      "opcode": "data_deletealloflist",
+      "next": "aU",
+      "parent": "bO",
+      "inputs": {},
+      "fields": {
+        "LIST": [
+          "costumes",
+          "KiOucij*)MFDW[%baG8h"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "aU": {
+      "opcode": "data_deletealloflist",
+      "next": "aV",
+      "parent": "aT",
+      "inputs": {},
+      "fields": {
+        "LIST": [
+          "sounds",
+          "--mE/dy,t58LTqWN:lHD"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "aV": {
+      "opcode": "control_forever",
+      "next": null,
+      "parent": "aU",
+      "inputs": {
+        "SUBSTACK": [
+          2,
+          "G"
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "G": {
+      "opcode": "control_if",
+      "next": null,
+      "parent": "aV",
+      "inputs": {
+        "CONDITION": [
+          2,
+          "H"
+        ],
+        "SUBSTACK": [
+          2,
+          "I"
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "H": {
+      "opcode": "operator_or",
+      "next": null,
+      "parent": "G",
+      "inputs": {
+        "OPERAND1": [
+          2,
+          "bP"
+        ],
+        "OPERAND2": [
+          2,
+          "bQ"
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "bP": {
+      "opcode": "data_listcontainsitem",
       "next": null,
       "parent": "H",
+      "inputs": {
+        "ITEM": [
+          1,
+          [
+            10,
+            ""
+          ]
+        ]
+      },
+      "fields": {
+        "LIST": [
+          "costumes",
+          "KiOucij*)MFDW[%baG8h"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "bQ": {
+      "opcode": "data_listcontainsitem",
+      "next": null,
+      "parent": "H",
+      "inputs": {
+        "ITEM": [
+          1,
+          [
+            10,
+            ""
+          ]
+        ]
+      },
+      "fields": {
+        "LIST": [
+          "sounds",
+          "--mE/dy,t58LTqWN:lHD"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "I": {
+      "opcode": "data_deleteoflist",
+      "next": "aW",
+      "parent": "G",
+      "inputs": {
+        "INDEX": [
+          3,
+          "bR",
+          [
+            7,
+            "1"
+          ]
+        ]
+      },
+      "fields": {
+        "LIST": [
+          "costumes",
+          "KiOucij*)MFDW[%baG8h"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "bR": {
+      "opcode": "data_itemnumoflist",
+      "next": null,
+      "parent": "I",
+      "inputs": {
+        "ITEM": [
+          1,
+          [
+            10,
+            ""
+          ]
+        ]
+      },
+      "fields": {
+        "LIST": [
+          "costumes",
+          "KiOucij*)MFDW[%baG8h"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "aW": {
+      "opcode": "data_deleteoflist",
+      "next": null,
+      "parent": "I",
+      "inputs": {
+        "INDEX": [
+          3,
+          "bS",
+          [
+            7,
+            "1"
+          ]
+        ]
+      },
+      "fields": {
+        "LIST": [
+          "sounds",
+          "--mE/dy,t58LTqWN:lHD"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "bS": {
+      "opcode": "data_itemnumoflist",
+      "next": null,
+      "parent": "aW",
+      "inputs": {
+        "ITEM": [
+          1,
+          [
+            10,
+            ""
+          ]
+        ]
+      },
+      "fields": {
+        "LIST": [
+          "sounds",
+          "--mE/dy,t58LTqWN:lHD"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "bT": {
+      "opcode": "control_repeat_until",
+      "next": null,
+      "parent": null,
+      "inputs": {
+        "CONDITION": [
+          2,
+          "J"
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": true,
+      "x": 1056,
+      "y": 1520
+    },
+    "J": {
+      "opcode": "operator_and",
+      "next": null,
+      "parent": "bT",
+      "inputs": {
+        "OPERAND1": [
+          2,
+          "aX"
+        ],
+        "OPERAND2": [
+          2,
+          "aY"
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "aX": {
+      "opcode": "operator_equals",
+      "next": null,
+      "parent": "J",
+      "inputs": {
+        "OPERAND1": [
+          3,
+          "aZ",
+          [
+            10,
+            ""
+          ]
+        ],
+        "OPERAND2": [
+          1,
+          [
+            10,
+            ""
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "aZ": {
+      "opcode": "skyhigh173JSON_json_get",
+      "next": null,
+      "parent": "aX",
+      "inputs": {
+        "item": [
+          1,
+          [
+            10,
+            "costumes"
+          ]
+        ],
+        "json": [
+          3,
+          "a!",
+          [
+            10,
+            "{\"key\":\"value\"}"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "a!": {
+      "opcode": "skyhigh173JSON_json_array_get",
+      "next": null,
+      "parent": "aZ",
+      "inputs": {
+        "item": [
+          3,
+          [
+            12,
+            "objectindex",
+            "StS+@^]rUG?wnd,^q=IZ"
+          ],
+          [
+            4,
+            "2"
+          ]
+        ],
+        "json": [
+          3,
+          "a#",
+          [
+            10,
+            "[\"scratch\",\"TurboWarp\"]"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "a#": {
+      "opcode": "skyhigh173JSON_json_get",
+      "next": null,
+      "parent": "a!",
+      "inputs": {
+        "item": [
+          1,
+          [
+            10,
+            "targets"
+          ]
+        ],
+        "json": [
+          3,
+          "a%",
+          [
+            10,
+            "{\"key\":\"value\"}"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "a%": {
+      "opcode": "cst1229zip_getFile",
+      "next": null,
+      "parent": "a#",
+      "inputs": {
+        "FILE": [
+          1,
+          [
+            10,
+            "project.json"
+          ]
+        ],
+        "TYPE": [
+          1,
+          "bU"
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "bU": {
+      "opcode": "cst1229zip_menu_getFileType",
+      "next": null,
+      "parent": "a%",
+      "inputs": {},
+      "fields": {
+        "getFileType": [
+          "text",
+          null
+        ]
+      },
+      "shadow": true,
+      "topLevel": false
+    },
+    "aY": {
+      "opcode": "operator_equals",
+      "next": null,
+      "parent": "J",
+      "inputs": {
+        "OPERAND1": [
+          3,
+          "a(",
+          [
+            10,
+            ""
+          ]
+        ],
+        "OPERAND2": [
+          1,
+          [
+            10,
+            ""
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "a(": {
+      "opcode": "skyhigh173JSON_json_get",
+      "next": null,
+      "parent": "aY",
+      "inputs": {
+        "item": [
+          1,
+          [
+            10,
+            "md5ext"
+          ]
+        ],
+        "json": [
+          3,
+          "a)",
+          [
+            10,
+            "{\"key\":\"value\"}"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "a)": {
+      "opcode": "skyhigh173JSON_json_array_get",
+      "next": null,
+      "parent": "a(",
+      "inputs": {
+        "item": [
+          3,
+          [
+            12,
+            "costumeindex",
+            "UVMWrzVf::yEHjqC6=UV"
+          ],
+          [
+            4,
+            "1"
+          ]
+        ],
+        "json": [
+          3,
+          "a*",
+          [
+            10,
+            "[\"scratch\",\"TurboWarp\"]"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "a*": {
+      "opcode": "skyhigh173JSON_json_get",
+      "next": null,
+      "parent": "a)",
+      "inputs": {
+        "item": [
+          1,
+          [
+            10,
+            "targets"
+          ]
+        ],
+        "json": [
+          3,
+          "a+",
+          [
+            10,
+            "{\"key\":\"value\"}"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "a+": {
+      "opcode": "cst1229zip_getFile",
+      "next": null,
+      "parent": "a*",
+      "inputs": {
+        "FILE": [
+          1,
+          [
+            10,
+            "project.json"
+          ]
+        ],
+        "TYPE": [
+          1,
+          "bV"
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "bV": {
+      "opcode": "cst1229zip_menu_getFileType",
+      "next": null,
+      "parent": "a+",
+      "inputs": {},
+      "fields": {
+        "getFileType": [
+          "text",
+          null
+        ]
+      },
+      "shadow": true,
+      "topLevel": false
+    },
+    "bW": {
+      "opcode": "data_setvariableto",
+      "next": "a,",
+      "parent": null,
+      "inputs": {
+        "VALUE": [
+          1,
+          [
+            10,
+            "1"
+          ]
+        ]
+      },
+      "fields": {
+        "VARIABLE": [
+          "costumeindex",
+          "UVMWrzVf::yEHjqC6=UV"
+        ]
+      },
+      "shadow": false,
+      "topLevel": true,
+      "x": 4467,
+      "y": 64
+    },
+    "a,": {
+      "opcode": "control_wait",
+      "next": "bX",
+      "parent": "bW",
+      "inputs": {
+        "DURATION": [
+          1,
+          [
+            5,
+            "1"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "bX": {
+      "opcode": "data_changevariableby",
+      "next": null,
+      "parent": "a,",
+      "inputs": {
+        "VALUE": [
+          1,
+          [
+            4,
+            "1"
+          ]
+        ]
+      },
+      "fields": {
+        "VARIABLE": [
+          "objectindex",
+          "StS+@^]rUG?wnd,^q=IZ"
+        ]
+      },
+      "shadow": false,
+      "topLevel": false
+    },
+    "bY": {
+      "opcode": "cst1229zip_getFile",
+      "next": null,
+      "parent": null,
+      "inputs": {
+        "FILE": [
+          1,
+          [
+            10,
+            "project.json"
+          ]
+        ],
+        "TYPE": [
+          1,
+          "bZ"
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": true,
+      "x": 1707,
+      "y": 1791
+    },
+    "bZ": {
+      "opcode": "cst1229zip_menu_getFileType",
+      "next": null,
+      "parent": "bY",
+      "inputs": {},
+      "fields": {
+        "getFileType": [
+          "text",
+          null
+        ]
+      },
+      "shadow": true,
+      "topLevel": false
+    },
+    "b!": {
+      "opcode": "event_whenthisspriteclicked",
+      "next": "K",
+      "parent": null,
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": true,
+      "x": 133,
+      "y": 706
+    },
+    "K": {
+      "opcode": "files_downloadURL",
+      "next": null,
+      "parent": "b!",
+      "inputs": {
+        "url": [
+          3,
+          "a-",
+          [
+            10,
+            "data:text/plain;base64,SGVsbG8sIHdvcmxkIQ=="
+          ]
+        ],
+        "file": [
+          3,
+          "b#",
+          [
+            10,
+            "save.txt"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "a-": {
+      "opcode": "skyhigh173JSON_json_get",
+      "next": null,
+      "parent": "K",
+      "inputs": {
+        "item": [
+          1,
+          [
+            10,
+            "282x218"
+          ]
+        ],
+        "json": [
+          3,
+          "b%",
+          [
+            10,
+            "{\"key\":\"value\"}"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "b%": {
+      "opcode": "skyhigh173JSON_json_get",
+      "next": null,
+      "parent": "a-",
+      "inputs": {
+        "item": [
+          1,
+          [
+            10,
+            "images"
+          ]
+        ],
+        "json": [
+          3,
+          [
+            12,
+            "api_response",
+            "EYH5tt0%*rS8Ow`~?nKs"
+          ],
+          [
+            10,
+            "{\"key\":\"value\"}"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "b#": {
+      "opcode": "operator_join",
+      "next": null,
+      "parent": "K",
       "inputs": {
         "STRING1": [
           3,
@@ -4434,7 +4554,24 @@
           1,
           [
             10,
-            ".sb2"
+            ".png"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "L": {
+      "opcode": "looks_setsizeto",
+      "next": "M",
+      "parent": "a.",
+      "inputs": {
+        "SIZE": [
+          1,
+          [
+            4,
+            "300"
           ]
         ]
       },
@@ -4444,8 +4581,8 @@
     }
   },
   "comments": {
-    "b*": {
-      "blockId": "b+",
+    "b:": {
+      "blockId": "b;",
       "x": 1510.8888888888873,
       "y": 2791.185185185185,
       "width": 200,
@@ -4453,8 +4590,8 @@
       "minimized": false,
       "text": "sounds"
     },
-    "b,": {
-      "blockId": "b-",
+    "b=": {
+      "blockId": "b?",
       "x": -991.4444384045071,
       "y": 2699.185185185185,
       "width": 200,
@@ -4462,7 +4599,7 @@
       "minimized": false,
       "text": "costumes"
     },
-    "bP": {
+    "bE": {
       "blockId": "b",
       "x": 2024.2187404632568,
       "y": 3908,
@@ -4471,7 +4608,7 @@
       "minimized": false,
       "text": "for checking scratch 2 projects"
     },
-    "bH": {
+    "bi": {
       "blockId": "a",
       "x": 2162.218744419239,
       "y": 2140.4444444444443,

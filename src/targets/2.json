@@ -5,9 +5,9 @@
   "lists": {},
   "broadcasts": {},
   "blocks": {
-    "bX": {
+    "b(": {
       "opcode": "event_whenthisspriteclicked",
-      "next": "bY",
+      "next": "b)",
       "parent": null,
       "inputs": {},
       "fields": {},
@@ -16,10 +16,10 @@
       "x": 31,
       "y": 280
     },
-    "bY": {
+    "b)": {
       "opcode": "event_broadcast",
       "next": null,
-      "parent": "bX",
+      "parent": "b(",
       "inputs": {
         "BROADCAST_INPUT": [
           1,
@@ -34,9 +34,9 @@
       "shadow": false,
       "topLevel": false
     },
-    "bZ": {
+    "b*": {
       "opcode": "event_whenbroadcastreceived",
-      "next": "b!",
+      "next": "b+",
       "parent": null,
       "inputs": {},
       "fields": {
@@ -50,18 +50,18 @@
       "x": 317,
       "y": 657
     },
-    "b!": {
+    "b+": {
       "opcode": "looks_show",
       "next": null,
-      "parent": "bZ",
+      "parent": "b*",
       "inputs": {},
       "fields": {},
       "shadow": false,
       "topLevel": false
     },
-    "b#": {
+    "b,": {
       "opcode": "event_whenflagclicked",
-      "next": "b%",
+      "next": "b-",
       "parent": null,
       "inputs": {},
       "fields": {},
@@ -70,10 +70,10 @@
       "x": 684,
       "y": 288
     },
-    "b%": {
+    "b-": {
       "opcode": "looks_hide",
       "next": null,
-      "parent": "b#",
+      "parent": "b,",
       "inputs": {},
       "fields": {},
       "shadow": false,
