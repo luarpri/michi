@@ -3,6 +3,6 @@
   "strings": "https://extensions.turbowarp.org/text.js",
   "fetch": "https://extensions.turbowarp.org/fetch.js",
   "skyhigh173JSON": "https://extensions.turbowarp.org/Skyhigh173/json.js",
-  "files": "https://extensions.turbowarp.org/files.js",
-  "lmsSkins": "https://extensions.turbowarp.org/Lily/Skins.js"
+  "lmsSkins": "https://extensions.turbowarp.org/Lily/Skins.js",
+  "files": "https://extensions.turbowarp.org/files.js"
 }
