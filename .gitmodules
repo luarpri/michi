@@ -1,0 +1,3 @@
+[submodule "blockvine"]
+	path = blockvine
+	url = https://github.com/dogo6647/blockvine
