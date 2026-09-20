@@ -1,0 +1,106 @@
+{
+  "isStage": false,
+  "name": "Objeto2",
+  "variables": {},
+  "lists": {},
+  "broadcasts": {},
+  "blocks": {
+    "bT": {
+      "opcode": "event_whenthisspriteclicked",
+      "next": "bU",
+      "parent": null,
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": true,
+      "x": 31,
+      "y": 280
+    },
+    "bU": {
+      "opcode": "event_broadcast",
+      "next": null,
+      "parent": "bT",
+      "inputs": {
+        "BROADCAST_INPUT": [
+          1,
+          [
+            11,
+            "pack project",
+            "eGn:W2-Ny=*0}zdR?:A$"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "bV": {
+      "opcode": "event_whenbroadcastreceived",
+      "next": "bW",
+      "parent": null,
+      "inputs": {},
+      "fields": {
+        "BROADCAST_OPTION": [
+          "download btn",
+          "Bz)zynYoL;Ic#$-(1NO/"
+        ]
+      },
+      "shadow": false,
+      "topLevel": true,
+      "x": 317,
+      "y": 657
+    },
+    "bW": {
+      "opcode": "looks_show",
+      "next": null,
+      "parent": "bV",
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "bX": {
+      "opcode": "event_whenflagclicked",
+      "next": "bY",
+      "parent": null,
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": true,
+      "x": 684,
+      "y": 288
+    },
+    "bY": {
+      "opcode": "looks_hide",
+      "next": null,
+      "parent": "bX",
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    }
+  },
+  "comments": {},
+  "currentCostume": 0,
+  "costumes": [
+    {
+      "name": "disfraz1",
+      "bitmapResolution": 1,
+      "dataFormat": "svg",
+      "assetId": "d4d9668b94f2790da533e36d3a7fd8b6",
+      "md5ext": "d4d9668b94f2790da533e36d3a7fd8b6.svg",
+      "rotationCenterX": 251,
+      "rotationCenterY": 71
+    }
+  ],
+  "sounds": [],
+  "volume": 100,
+  "layerOrder": 2,
+  "visible": false,
+  "x": 5,
+  "y": -255,
+  "size": 100,
+  "direction": 90,
+  "draggable": false,
+  "rotationStyle": "all around"
+}

@@ -1,0 +1,123 @@
+{
+  "isStage": true,
+  "name": "Stage",
+  "variables": {
+    "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+      "mi variable",
+      0
+    ],
+    "0C|qs$z@yJT|?{5HF-6=": [
+      "url",
+      ""
+    ],
+    "EYH5tt0%*rS8Ow`~?nKs": [
+      "api_response",
+      ""
+    ],
+    "7iX#;/DOld25!e)=|m`^": [
+      "title",
+      ""
+    ],
+    "@N!T0=ow|k:wA8`Y$}4l": [
+      "author",
+      ""
+    ],
+    "@i6p8b+]dNC!!2V^G-6d": [
+      "visible",
+      ""
+    ],
+    ".l}zLsQXX~N}*fMBzuD!": [
+      "id",
+      ""
+    ],
+    "d,@G-EF2@z3k*-+_%*.q": [
+      "instructions",
+      ""
+    ],
+    "=l00rRgoE/78ca3+_P.4": [
+      "descriptions",
+      ""
+    ],
+    "9Ah^I1K8EAi[~H4AFBG=": [
+      "token",
+      ""
+    ],
+    "|CnJbf!Vt*m5o?;Xk2z/": [
+      "md5ext",
+      ""
+    ],
+    "Qk^.r?[^p_#,#OWbOUYr": [
+      "md5counter",
+      0
+    ],
+    "D|r=cq[yi{M13#y{iny@": [
+      "shit",
+      0
+    ],
+    "F4??B-,d$`~O/x3@9UU2": [
+      "total",
+      0
+    ],
+    "StS+@^]rUG?wnd,^q=IZ": [
+      "objectindex",
+      -1
+    ],
+    "UVMWrzVf::yEHjqC6=UV": [
+      "costumeindex",
+      -1
+    ],
+    ":Wpu{/=T#FXt^oj1-hL{": [
+      "shit2",
+      0
+    ],
+    "E;|*0_d2h@Qy.4f.H3`o": [
+      "counter",
+      0
+    ],
+    "vtR6y}v_bCCYx~fuASM:": [
+      "soundindex",
+      0
+    ],
+    "|~$nr~*4wrjJ]0;1h(|J": [
+      "object_sound_index",
+      3
+    ]
+  },
+  "lists": {
+    "KiOucij*)MFDW[%baG8h": [
+      "costumes",
+      []
+    ],
+    "--mE/dy,t58LTqWN:lHD": [
+      "sounds",
+      []
+    ]
+  },
+  "broadcasts": {
+    "_zYmTwxoi7QH44)+Q6Kk": "parse",
+    "eGn:W2-Ny=*0}zdR?:A$": "pack project",
+    "Bz)zynYoL;Ic#$-(1NO/": "download btn",
+    "z#]PC?jcMoDa|-C`D)^h": "calculate",
+    "GUFw630%4)Am%b=fEud5": "calculate2"
+  },
+  "blocks": {},
+  "comments": {},
+  "currentCostume": 0,
+  "costumes": [
+    {
+      "name": "fondo1",
+      "dataFormat": "svg",
+      "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+      "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+      "rotationCenterX": 240,
+      "rotationCenterY": 180
+    }
+  ],
+  "sounds": [],
+  "volume": 100,
+  "layerOrder": 0,
+  "tempo": 60,
+  "videoTransparency": 50,
+  "videoState": "on",
+  "textToSpeechLanguage": null
+}

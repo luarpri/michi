@@ -1,0 +1,18 @@
+{
+  "id": "@i6p8b+]dNC!!2V^G-6d",
+  "mode": "default",
+  "opcode": "data_variable",
+  "params": {
+    "VARIABLE": "visible"
+  },
+  "spriteName": null,
+  "value": 0,
+  "width": 0,
+  "height": 0,
+  "x": -240,
+  "y": 490,
+  "visible": true,
+  "sliderMin": 0,
+  "sliderMax": 100,
+  "isDiscrete": true
+}

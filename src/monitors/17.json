@@ -1,0 +1,15 @@
+{
+  "id": "--mE/dy,t58LTqWN:lHD",
+  "mode": "list",
+  "opcode": "data_listcontents",
+  "params": {
+    "LIST": "sounds"
+  },
+  "spriteName": null,
+  "value": [],
+  "width": 0,
+  "height": 0,
+  "x": 578,
+  "y": -5,
+  "visible": true
+}

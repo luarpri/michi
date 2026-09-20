@@ -1,0 +1,18 @@
+{
+  "id": "EYH5tt0%*rS8Ow`~?nKs",
+  "mode": "default",
+  "opcode": "data_variable",
+  "params": {
+    "VARIABLE": "api_response"
+  },
+  "spriteName": null,
+  "value": 0,
+  "width": 0,
+  "height": 0,
+  "x": 5,
+  "y": 5,
+  "visible": false,
+  "sliderMin": 0,
+  "sliderMax": 100,
+  "isDiscrete": true
+}

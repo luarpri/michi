@@ -1,0 +1,18 @@
+{
+  "id": "D|r=cq[yi{M13#y{iny@",
+  "mode": "default",
+  "opcode": "data_variable",
+  "params": {
+    "VARIABLE": "shit"
+  },
+  "spriteName": null,
+  "value": 0,
+  "width": 0,
+  "height": 0,
+  "x": -240,
+  "y": -26,
+  "visible": true,
+  "sliderMin": 0,
+  "sliderMax": 100,
+  "isDiscrete": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "UVMWrzVf::yEHjqC6=UV",
+  "mode": "default",
+  "opcode": "data_variable",
+  "params": {
+    "VARIABLE": "costumeindex"
+  },
+  "spriteName": null,
+  "value": 0,
+  "width": 0,
+  "height": 0,
+  "x": -240,
+  "y": 124,
+  "visible": true,
+  "sliderMin": 0,
+  "sliderMax": 100,
+  "isDiscrete": true
+}

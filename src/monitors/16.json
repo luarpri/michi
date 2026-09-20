@@ -1,0 +1,18 @@
+{
+  "id": "E;|*0_d2h@Qy.4f.H3`o",
+  "mode": "default",
+  "opcode": "data_variable",
+  "params": {
+    "VARIABLE": "counter"
+  },
+  "spriteName": null,
+  "value": 0,
+  "width": 0,
+  "height": 0,
+  "x": -235,
+  "y": 34,
+  "visible": true,
+  "sliderMin": 0,
+  "sliderMax": 100,
+  "isDiscrete": true
+}

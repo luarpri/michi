@@ -1,0 +1,18 @@
+{
+  "id": ":Wpu{/=T#FXt^oj1-hL{",
+  "mode": "default",
+  "opcode": "data_variable",
+  "params": {
+    "VARIABLE": "shit2"
+  },
+  "spriteName": null,
+  "value": 0,
+  "width": 0,
+  "height": 0,
+  "x": -235,
+  "y": 4,
+  "visible": true,
+  "sliderMin": 0,
+  "sliderMax": 100,
+  "isDiscrete": true
+}

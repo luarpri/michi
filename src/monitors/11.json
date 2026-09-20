@@ -1,0 +1,18 @@
+{
+  "id": "|CnJbf!Vt*m5o?;Xk2z/",
+  "mode": "default",
+  "opcode": "data_variable",
+  "params": {
+    "VARIABLE": "md5ext"
+  },
+  "spriteName": null,
+  "value": 0,
+  "width": 0,
+  "height": 0,
+  "x": -199,
+  "y": -122,
+  "visible": false,
+  "sliderMin": 0,
+  "sliderMax": 100,
+  "isDiscrete": true
+}

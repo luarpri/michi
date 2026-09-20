@@ -1,0 +1,18 @@
+{
+  "id": "7iX#;/DOld25!e)=|m`^",
+  "mode": "default",
+  "opcode": "data_variable",
+  "params": {
+    "VARIABLE": "title"
+  },
+  "spriteName": null,
+  "value": 0,
+  "width": 0,
+  "height": 0,
+  "x": 545,
+  "y": 515,
+  "visible": true,
+  "sliderMin": 0,
+  "sliderMax": 100,
+  "isDiscrete": true
+}
