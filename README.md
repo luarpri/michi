@@ -33,6 +33,6 @@ python3 blockvine/sb3break.py michi.sb3
 ```
 You should now open the project using any based TurboWarp editor
 
-> [!NOTE]
-> You may need TurboWarp Desktop or the scratch mod desktop file equivalent to use the project correctly
+> [!WARNING]
+> You may need TurboWarp Desktop or the scratch mod desktop equivalent to use the project correctly
 > In TW's Desktop you will need to enable "Allow extensions to access any website" in Settings > Desktop settings
