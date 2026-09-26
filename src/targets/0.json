@@ -148,7 +148,7 @@
   },
   "blocks": {},
   "comments": {
-    "d+": {
+    "d*": {
       "blockId": null,
       "x": 50,
       "y": 50,
