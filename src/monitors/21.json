@@ -11,7 +11,7 @@
   "height": 0,
   "x": -240,
   "y": -180,
-  "visible": true,
+  "visible": false,
   "sliderMin": 0,
   "sliderMax": 100,
   "isDiscrete": true

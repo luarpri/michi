@@ -1,0 +1,15 @@
+{
+  "id": "[}Mnu}DG(WMkfW%LZ}6w",
+  "mode": "list",
+  "opcode": "data_listcontents",
+  "params": {
+    "LIST": "resume"
+  },
+  "spriteName": null,
+  "value": [],
+  "width": 380,
+  "height": 525,
+  "x": 316,
+  "y": -162,
+  "visible": true
+}

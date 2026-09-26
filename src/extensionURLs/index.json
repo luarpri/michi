@@ -4,5 +4,6 @@
   "fetch": "https://extensions.turbowarp.org/fetch.js",
   "skyhigh173JSON": "https://extensions.turbowarp.org/Skyhigh173/json.js",
   "lmsSkins": "https://extensions.turbowarp.org/Lily/Skins.js",
-  "files": "https://extensions.turbowarp.org/files.js"
+  "files": "https://extensions.turbowarp.org/files.js",
+  "qxsckvarandlist": "https://extensions.turbowarp.org/qxsck/var-and-list.js"
 }

@@ -9,9 +9,9 @@
   "value": 0,
   "width": 0,
   "height": 0,
-  "x": 382,
-  "y": 515,
-  "visible": true,
+  "x": -183,
+  "y": -75,
+  "visible": false,
   "sliderMin": 0,
   "sliderMax": 100,
   "isDiscrete": true

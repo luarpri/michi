@@ -1,0 +1,160 @@
+{
+  "isStage": false,
+  "name": "Objeto3",
+  "variables": {},
+  "lists": {},
+  "broadcasts": {},
+  "blocks": {
+    "d#": {
+      "opcode": "event_whenthisspriteclicked",
+      "next": "ai",
+      "parent": null,
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": true,
+      "x": 31,
+      "y": 280
+    },
+    "d%": {
+      "opcode": "event_whenbroadcastreceived",
+      "next": "d(",
+      "parent": null,
+      "inputs": {},
+      "fields": {
+        "BROADCAST_OPTION": [
+          "download btn",
+          "Bz)zynYoL;Ic#$-(1NO/"
+        ]
+      },
+      "shadow": false,
+      "topLevel": true,
+      "x": 317,
+      "y": 657
+    },
+    "d(": {
+      "opcode": "looks_show",
+      "next": null,
+      "parent": "d%",
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "d)": {
+      "opcode": "event_whenflagclicked",
+      "next": "d*",
+      "parent": null,
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": true,
+      "x": 762,
+      "y": 130
+    },
+    "d*": {
+      "opcode": "looks_hide",
+      "next": null,
+      "parent": "d)",
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "ai": {
+      "opcode": "files_download",
+      "next": null,
+      "parent": "d#",
+      "inputs": {
+        "text": [
+          3,
+          "d+",
+          [
+            10,
+            "Hello, world!"
+          ]
+        ],
+        "file": [
+          3,
+          "d,",
+          [
+            10,
+            "save.txt"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "d+": {
+      "opcode": "qxsckvarandlist_seriListsToJson",
+      "next": null,
+      "parent": "ai",
+      "inputs": {
+        "START": [
+          1,
+          [
+            10,
+            "resume"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    },
+    "d,": {
+      "opcode": "operator_join",
+      "next": null,
+      "parent": "ai",
+      "inputs": {
+        "STRING1": [
+          3,
+          [
+            12,
+            "title",
+            "7iX#;/DOld25!e)=|m`^"
+          ],
+          [
+            10,
+            "manzana "
+          ]
+        ],
+        "STRING2": [
+          1,
+          [
+            10,
+            ".json"
+          ]
+        ]
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false
+    }
+  },
+  "comments": {},
+  "currentCostume": 0,
+  "costumes": [
+    {
+      "name": "disfraz1",
+      "bitmapResolution": 1,
+      "dataFormat": "svg",
+      "assetId": "e722ade1ba1ee7206cc763c741bc1ba8",
+      "md5ext": "e722ade1ba1ee7206cc763c741bc1ba8.svg",
+      "rotationCenterX": 251,
+      "rotationCenterY": 23.51659385641358
+    }
+  ],
+  "sounds": [],
+  "volume": 100,
+  "layerOrder": 2,
+  "visible": false,
+  "x": -121.9852973171918,
+  "y": 294.86739981644007,
+  "size": 100,
+  "direction": 90,
+  "draggable": false,
+  "rotationStyle": "all around"
+}

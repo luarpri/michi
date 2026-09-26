@@ -2,10 +2,6 @@
   "isStage": true,
   "name": "Stage",
   "variables": {
-    "`jEk@4|i[#Fk?(8x)AV.-my variable": [
-      "mi variable",
-      0
-    ],
     "0C|qs$z@yJT|?{5HF-6=": [
       "url",
       ""
@@ -85,6 +81,50 @@
     "H~uC9h)31xyQ@H(ABW3!": [
       "project_webpage",
       ""
+    ],
+    "2k0OS@,!2#s#LzuW3af,": [
+      "favorites",
+      ""
+    ],
+    "brLS2BSYkK8cTzn[~+AT": [
+      "loves",
+      ""
+    ],
+    "_~tKFf-P.Fre6nc4}@-^": [
+      "remixes",
+      ""
+    ],
+    "5!P7x8^J~a|BLu~nB[0+": [
+      "views",
+      ""
+    ],
+    "[EbOV*f[[N|^w0ItPG69": [
+      "is_remix",
+      ""
+    ],
+    "];+a,k:kXHxYmc3mEbGs": [
+      "created",
+      ""
+    ],
+    "i%?}IoM4]nxfhp5f}#^k": [
+      "modified",
+      ""
+    ],
+    "SEEE=.7@a~ek7DhAUv7$": [
+      "shared",
+      ""
+    ],
+    ";huUX%1b*@WN=bN7;N~3": [
+      "comments_allowed",
+      ""
+    ],
+    "c}ENUg+B)uYVXk2TpEg{": [
+      "is_published",
+      ""
+    ],
+    "@+r$lZGDHd}5=*{_=dFG": [
+      "public",
+      ""
     ]
   },
   "lists": {
@@ -95,6 +135,10 @@
     "--mE/dy,t58LTqWN:lHD": [
       "sounds",
       []
+    ],
+    "[}Mnu}DG(WMkfW%LZ}6w": [
+      "resume",
+      []
     ]
   },
   "broadcasts": {
@@ -104,7 +148,7 @@
   },
   "blocks": {},
   "comments": {
-    "cN": {
+    "d-": {
       "blockId": null,
       "x": 50,
       "y": 50,

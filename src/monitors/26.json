@@ -1,16 +1,16 @@
 {
-  "id": "|~$nr~*4wrjJ]0;1h(|J",
+  "id": "5!P7x8^J~a|BLu~nB[0+",
   "mode": "default",
   "opcode": "data_variable",
   "params": {
-    "VARIABLE": "object_sound_index"
+    "VARIABLE": "views"
   },
   "spriteName": null,
   "value": 0,
   "width": 0,
   "height": 0,
-  "x": -240,
-  "y": 140,
+  "x": -177,
+  "y": -152,
   "visible": false,
   "sliderMin": 0,
   "sliderMax": 100,
