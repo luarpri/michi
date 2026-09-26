@@ -5,9 +5,9 @@
   "lists": {},
   "broadcasts": {},
   "blocks": {
-    "dV": {
+    "dT": {
       "opcode": "event_whenthisspriteclicked",
-      "next": "dW",
+      "next": "dU",
       "parent": null,
       "inputs": {},
       "fields": {},
@@ -16,10 +16,10 @@
       "x": 31,
       "y": 280
     },
-    "dW": {
+    "dU": {
       "opcode": "event_broadcast",
       "next": null,
-      "parent": "dV",
+      "parent": "dT",
       "inputs": {
         "BROADCAST_INPUT": [
           1,
@@ -34,9 +34,9 @@
       "shadow": false,
       "topLevel": false
     },
-    "dX": {
+    "dV": {
       "opcode": "event_whenbroadcastreceived",
-      "next": "dY",
+      "next": "dW",
       "parent": null,
       "inputs": {},
       "fields": {
@@ -50,18 +50,18 @@
       "x": 317,
       "y": 657
     },
-    "dY": {
+    "dW": {
       "opcode": "looks_show",
       "next": null,
-      "parent": "dX",
+      "parent": "dV",
       "inputs": {},
       "fields": {},
       "shadow": false,
       "topLevel": false
     },
-    "dZ": {
+    "dX": {
       "opcode": "event_whenflagclicked",
-      "next": "d!",
+      "next": "dY",
       "parent": null,
       "inputs": {},
       "fields": {},
@@ -70,10 +70,10 @@
       "x": 684,
       "y": 288
     },
-    "d!": {
+    "dY": {
       "opcode": "looks_hide",
       "next": null,
-      "parent": "dZ",
+      "parent": "dX",
       "inputs": {},
       "fields": {},
       "shadow": false,
@@ -81,7 +81,7 @@
     }
   },
   "comments": {
-    "d_": {
+    "d]": {
       "blockId": "e",
       "x": 2100,
       "y": 3224,
@@ -90,7 +90,7 @@
       "minimized": false,
       "text": "scratch 1 projects works completely different"
     },
-    "d`": {
+    "d^": {
       "blockId": "f",
       "x": 2319,
       "y": 4996,
@@ -99,7 +99,7 @@
       "minimized": false,
       "text": "for checking scratch 2 projects"
     },
-    "d{": {
+    "d_": {
       "blockId": "x",
       "x": 1023,
       "y": 336,
