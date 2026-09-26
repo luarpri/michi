@@ -60,7 +60,7 @@
     ],
     "StS+@^]rUG?wnd,^q=IZ": [
       "objectindex",
-      -1
+      0
     ],
     "UVMWrzVf::yEHjqC6=UV": [
       "costumeindex",
@@ -80,7 +80,7 @@
     ],
     "|~$nr~*4wrjJ]0;1h(|J": [
       "object_sound_index",
-      4
+      0
     ],
     "H~uC9h)31xyQ@H(ABW3!": [
       "project_webpage",
@@ -103,7 +103,17 @@
     "Bz)zynYoL;Ic#$-(1NO/": "download btn"
   },
   "blocks": {},
-  "comments": {},
+  "comments": {
+    "cN": {
+      "blockId": null,
+      "x": 50,
+      "y": 50,
+      "width": 350,
+      "height": 170,
+      "minimized": false,
+      "text": "Configuration for https://turbowarp.org/\nYou can move, resize, and minimize this comment, but don't edit it by hand. This comment can be deleted to remove the stored settings.\n{\"width\":960,\"height\":720} // _twconfig_"
+    }
+  },
   "currentCostume": 0,
   "costumes": [
     {
